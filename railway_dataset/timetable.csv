@@ -1,0 +1,460 @@
+train_code,train_name,station_code,station_name,station_type,arrival_time,departure_time,halt_minutes,distance_from_prev_km,train_priority,top_speed,avg_speed,platform_no,day_of_week,sequence_no,corridor,cumulative_distance
+45711,Kolkata-Ahmedabad Superfast Express,MRT,Kolkata Terminus,Terminus,2025-09-01 10:00:00,2025-09-01 10:00:00,25,0.0,3,110,110,11,Monday,1,Golden_Quadrilateral,0.0
+45711,Kolkata-Ahmedabad Superfast Express,CSN,Thane Road,Road,2025-09-01 20:39:47,2025-09-01 20:44:47,5,863.73,3,110,81,3,Monday,2,Golden_Quadrilateral,863.73
+45711,Kolkata-Ahmedabad Superfast Express,EXX,Kishanganj Cantt,Cantt,2025-09-02 11:01:06,2025-09-02 11:11:06,10,1141.75,3,110,80,3,Monday,3,Golden_Quadrilateral,2005.48
+45711,Kolkata-Ahmedabad Superfast Express,TXT,Farrukhabad Halt,Halt,2025-09-03 02:30:44,2025-09-03 02:33:44,3,1333.46,3,110,87,3,Tuesday,4,Golden_Quadrilateral,3338.94
+45711,Kolkata-Ahmedabad Superfast Express,KFI,Agra Road,Road,2025-09-03 03:18:39,2025-09-03 03:23:39,5,60.64,3,110,81,2,Wednesday,5,Golden_Quadrilateral,3399.58
+45711,Kolkata-Ahmedabad Superfast Express,LTC,Arrah Halt,Halt,2025-09-03 07:40:55,2025-09-03 07:43:55,3,407.34,3,110,95,2,Wednesday,6,Golden_Quadrilateral,3806.93
+45711,Kolkata-Ahmedabad Superfast Express,KXK,Ahmedabad Central,Central,2025-09-03 22:24:35,,0,1306.3,3,110,89,3,Wednesday,7,Golden_Quadrilateral,5113.23
+65996,Delhi-Kolkata Duronto Express,HZP,Delhi Central,Central,2025-09-01 06:45:00,2025-09-01 06:45:00,10,0.0,1,80,80,16,Monday,1,Golden_Quadrilateral,0.0
+65996,Delhi-Kolkata Duronto Express,YDJ,Ratlam Road,Road,2025-09-01 18:05:33,2025-09-01 18:05:33,0,816.67,1,80,72,1,Monday,2,Golden_Quadrilateral,816.67
+65996,Delhi-Kolkata Duronto Express,PPB,Amritsar Cantt,Cantt,2025-09-01 18:43:44,2025-09-01 18:48:44,5,45.19,1,80,71,4,Monday,3,Golden_Quadrilateral,861.85
+65996,Delhi-Kolkata Duronto Express,MRT,Kolkata Terminus,Terminus,2025-09-02 15:29:24,,0,1302.71,1,80,63,7,Monday,4,Golden_Quadrilateral,2164.56
+37426,Mumbai-Kolkata Inter City Express,SCB,Mumbai Terminus,Terminus,2025-09-01 17:45:00,2025-09-01 17:45:00,25,0.0,3,130,130,12,Monday,1,Golden_Quadrilateral,0.0
+37426,Mumbai-Kolkata Inter City Express,OZR,Pune Junction,Junction,2025-09-01 19:33:30,2025-09-01 19:48:30,15,179.05,3,130,99,9,Monday,2,Golden_Quadrilateral,179.05
+37426,Mumbai-Kolkata Inter City Express,QFP,Ratlam Cantt,Cantt,2025-09-01 22:29:28,2025-09-01 22:39:28,10,316.56,3,130,118,2,Monday,3,Golden_Quadrilateral,495.61
+37426,Mumbai-Kolkata Inter City Express,OXM,Narasaraopet Halt,Halt,2025-09-01 22:59:59,2025-09-01 23:02:59,3,41.38,3,130,121,1,Monday,4,Golden_Quadrilateral,536.99
+37426,Mumbai-Kolkata Inter City Express,MRT,Kolkata Terminus,Terminus,2025-09-02 19:49:43,,0,2244.12,3,130,108,9,Monday,5,Golden_Quadrilateral,2781.11
+77617,Chennai-Hyderabad Garib Rath Express,CPX,Chennai Terminus,Terminus,2025-09-01 23:15:00,2025-09-01 23:15:00,20,0.0,2,110,110,16,Monday,1,Golden_Quadrilateral,0.0
+77617,Chennai-Hyderabad Garib Rath Express,AVX,Phagwara Road,Road,2025-09-02 01:26:52,2025-09-02 01:29:52,3,186.83,2,110,85,1,Monday,2,Golden_Quadrilateral,186.83
+77617,Chennai-Hyderabad Garib Rath Express,UWE,Malda Cantt,Cantt,2025-09-02 04:49:01,2025-09-02 04:57:01,8,335.23,2,110,101,4,Tuesday,3,Golden_Quadrilateral,522.06
+77617,Chennai-Hyderabad Garib Rath Express,EEF,Tadepalligudem Halt,Halt,2025-09-02 05:46:37,2025-09-02 05:48:37,2,66.13,2,110,80,2,Tuesday,4,Golden_Quadrilateral,588.19
+77617,Chennai-Hyderabad Garib Rath Express,PQN,Sonipat Cantt,Cantt,2025-09-02 08:14:50,2025-09-02 08:22:50,8,194.97,2,110,80,1,Tuesday,5,Golden_Quadrilateral,783.16
+77617,Chennai-Hyderabad Garib Rath Express,ZYP,Etawah Road,Road,2025-09-02 10:23:32,2025-09-02 10:26:32,3,179.02,2,110,89,3,Tuesday,6,Golden_Quadrilateral,962.17
+77617,Chennai-Hyderabad Garib Rath Express,AJM,Hyderabad Central,Central,2025-09-02 13:35:33,,0,280.4,2,110,89,1,Tuesday,7,Golden_Quadrilateral,1242.57
+69737,Bangalore-Pune Express,ARY,Bangalore Junction,Junction,2025-09-01 20:00:00,2025-09-01 20:00:00,15,0.0,3,180,180,11,Monday,1,Golden_Quadrilateral,0.0
+69737,Bangalore-Pune Express,PQN,Sonipat Cantt,Cantt,2025-09-01 22:34:59,2025-09-01 22:44:59,10,333.22,3,180,129,4,Monday,2,Golden_Quadrilateral,333.22
+69737,Bangalore-Pune Express,WEI,Unnao Road,Road,2025-09-01 23:00:08,2025-09-01 23:05:08,5,31.82,3,180,126,2,Monday,3,Golden_Quadrilateral,365.05
+69737,Bangalore-Pune Express,ZTM,Mumbai Road,Road,2025-09-01 23:34:34,2025-09-01 23:39:34,5,79.45,3,180,162,1,Monday,4,Golden_Quadrilateral,444.5
+69737,Bangalore-Pune Express,XGL,Patiala Halt,Halt,2025-09-02 01:05:02,2025-09-02 01:08:02,3,190.89,3,180,134,1,Monday,5,Golden_Quadrilateral,635.39
+69737,Bangalore-Pune Express,OZR,Pune Junction,Junction,2025-09-02 05:53:03,,0,617.53,3,180,130,1,Tuesday,6,Golden_Quadrilateral,1252.91
+38566,Chennai-Hyderabad Superfast Express,CPX,Chennai Terminus,Terminus,2025-09-01 22:30:00,2025-09-01 22:30:00,25,0.0,3,100,100,10,Monday,1,Golden_Quadrilateral,0.0
+38566,Chennai-Hyderabad Superfast Express,AVX,Phagwara Road,Road,2025-09-02 00:27:08,2025-09-02 00:32:08,5,167.91,3,100,86,4,Monday,2,Golden_Quadrilateral,167.91
+38566,Chennai-Hyderabad Superfast Express,UWE,Malda Cantt,Cantt,2025-09-02 04:37:57,2025-09-02 04:47:57,10,327.75,3,100,80,2,Tuesday,3,Golden_Quadrilateral,495.66
+38566,Chennai-Hyderabad Superfast Express,EEF,Tadepalligudem Halt,Halt,2025-09-02 05:25:40,2025-09-02 05:28:40,3,55.94,3,100,89,2,Tuesday,4,Golden_Quadrilateral,551.6
+38566,Chennai-Hyderabad Superfast Express,PQN,Sonipat Cantt,Cantt,2025-09-02 08:18:11,2025-09-02 08:28:11,10,231.69,3,100,82,2,Tuesday,5,Golden_Quadrilateral,783.28
+38566,Chennai-Hyderabad Superfast Express,ZYP,Etawah Road,Road,2025-09-02 10:19:20,2025-09-02 10:24:20,5,174.13,3,100,94,4,Tuesday,6,Golden_Quadrilateral,957.41
+38566,Chennai-Hyderabad Superfast Express,AJM,Hyderabad Central,Central,2025-09-02 14:15:26,,0,292.73,3,100,76,5,Tuesday,7,Golden_Quadrilateral,1250.15
+48065,Pune-Bangalore Fast Passenger,OZR,Pune Junction,Junction,2025-09-01 02:15:00,2025-09-01 02:15:00,18,0.0,4,160,160,5,Monday,1,Golden_Quadrilateral,0.0
+48065,Pune-Bangalore Fast Passenger,IVA,Kollam Cantt,Cantt,2025-09-01 04:02:21,2025-09-01 04:14:21,12,270.2,4,160,151,1,Monday,2,Golden_Quadrilateral,270.2
+48065,Pune-Bangalore Fast Passenger,TUJ,Nizamabad Cantt,Cantt,2025-09-01 06:55:56,2025-09-01 07:07:56,12,317.78,4,160,118,2,Monday,3,Golden_Quadrilateral,587.98
+48065,Pune-Bangalore Fast Passenger,DQD,Gaya Halt,Halt,2025-09-01 09:34:26,2025-09-01 09:39:26,5,339.36,4,160,139,4,Monday,4,Golden_Quadrilateral,927.35
+48065,Pune-Bangalore Fast Passenger,MQV,Gurgaon Halt,Halt,2025-09-01 13:06:45,2025-09-01 13:11:45,5,414.66,4,160,120,1,Monday,5,Golden_Quadrilateral,1342.0
+48065,Pune-Bangalore Fast Passenger,JQY,Berhampur Road,Road,2025-09-01 14:46:52,2025-09-01 14:54:52,8,229.86,4,160,145,2,Monday,6,Golden_Quadrilateral,1571.86
+48065,Pune-Bangalore Fast Passenger,QEA,Hubli–Dharwad Halt,Halt,2025-09-01 15:25:47,2025-09-01 15:30:47,5,68.02,4,160,132,2,Monday,7,Golden_Quadrilateral,1639.88
+48065,Pune-Bangalore Fast Passenger,XGL,Patiala Halt,Halt,2025-09-01 15:59:28,2025-09-01 16:04:28,5,57.36,4,160,120,1,Monday,8,Golden_Quadrilateral,1697.25
+48065,Pune-Bangalore Fast Passenger,ZTM,Mumbai Road,Road,2025-09-01 17:35:05,2025-09-01 17:43:05,8,199.33,4,160,132,1,Monday,9,Golden_Quadrilateral,1896.58
+48065,Pune-Bangalore Fast Passenger,WEI,Unnao Road,Road,2025-09-01 18:20:49,2025-09-01 18:28:49,8,82.38,4,160,131,1,Monday,10,Golden_Quadrilateral,1978.96
+48065,Pune-Bangalore Fast Passenger,PQN,Sonipat Cantt,Cantt,2025-09-01 18:46:34,2025-09-01 18:58:34,12,35.81,4,160,121,2,Monday,11,Golden_Quadrilateral,2014.77
+48065,Pune-Bangalore Fast Passenger,ARY,Bangalore Junction,Junction,2025-09-01 20:57:23,,0,295.07,4,160,149,6,Monday,12,Golden_Quadrilateral,2309.84
+28118,Kolkata-Chennai MEMU,MRT,Kolkata Terminus,Terminus,2025-09-01 04:15:00,2025-09-01 04:15:00,30,0.0,4,110,110,1,Monday,1,Golden_Quadrilateral,0.0
+28118,Kolkata-Chennai MEMU,CSN,Thane Road,Road,2025-09-01 14:10:20,2025-09-01 14:18:20,8,793.78,4,110,80,3,Monday,2,Golden_Quadrilateral,793.78
+28118,Kolkata-Chennai MEMU,TXT,Farrukhabad Halt,Halt,2025-09-01 16:30:05,2025-09-01 16:35:05,5,177.87,4,110,81,3,Monday,3,Golden_Quadrilateral,971.65
+28118,Kolkata-Chennai MEMU,KFI,Agra Road,Road,2025-09-01 17:15:50,2025-09-01 17:23:50,8,61.8,4,110,91,2,Monday,4,Golden_Quadrilateral,1033.45
+28118,Kolkata-Chennai MEMU,LTC,Arrah Halt,Halt,2025-09-01 22:40:14,2025-09-01 22:45:14,5,495.7,4,110,94,3,Monday,5,Golden_Quadrilateral,1529.16
+28118,Kolkata-Chennai MEMU,ZWM,Chennai Halt,Halt,2025-09-02 00:45:09,2025-09-02 00:50:09,5,161.89,4,110,81,3,Monday,6,Golden_Quadrilateral,1691.04
+28118,Kolkata-Chennai MEMU,WEQ,Bidhannagar Road,Road,2025-09-02 09:11:27,2025-09-02 09:19:27,8,710.17,4,110,85,6,Tuesday,7,Golden_Quadrilateral,2401.22
+28118,Kolkata-Chennai MEMU,CPX,Chennai Terminus,Terminus,2025-09-02 18:10:11,,0,751.86,4,110,85,18,Tuesday,8,Golden_Quadrilateral,3153.08
+83716,Hyderabad-Kolkata Passenger,AJM,Hyderabad Central,Central,2025-09-01 18:15:00,2025-09-01 18:15:00,22,0.0,4,110,110,4,Monday,1,Golden_Quadrilateral,0.0
+83716,Hyderabad-Kolkata Passenger,DQD,Gaya Halt,Halt,2025-09-01 21:52:59,2025-09-01 21:57:59,5,301.55,4,110,83,2,Monday,2,Golden_Quadrilateral,301.55
+83716,Hyderabad-Kolkata Passenger,ZYP,Etawah Road,Road,2025-09-02 03:36:33,2025-09-02 03:44:33,8,536.06,4,110,95,6,Monday,3,Golden_Quadrilateral,837.62
+83716,Hyderabad-Kolkata Passenger,UWE,Malda Cantt,Cantt,2025-09-02 04:10:50,2025-09-02 04:22:50,12,44.69,4,110,102,3,Tuesday,4,Golden_Quadrilateral,882.31
+83716,Hyderabad-Kolkata Passenger,EEF,Tadepalligudem Halt,Halt,2025-09-02 05:02:53,2025-09-02 05:07:53,5,60.72,4,110,91,2,Tuesday,5,Golden_Quadrilateral,943.03
+83716,Hyderabad-Kolkata Passenger,DID,Dharmavaram Cantt,Cantt,2025-09-02 14:44:45,2025-09-02 14:56:45,12,807.63,4,110,84,2,Tuesday,6,Golden_Quadrilateral,1750.67
+83716,Hyderabad-Kolkata Passenger,UKW,Silchar Road,Road,2025-09-02 16:25:33,2025-09-02 16:33:33,8,122.83,4,110,83,3,Tuesday,7,Golden_Quadrilateral,1873.5
+83716,Hyderabad-Kolkata Passenger,QXU,Kavali Cantt,Cantt,2025-09-02 17:14:28,2025-09-02 17:26:28,12,57.96,4,110,85,1,Tuesday,8,Golden_Quadrilateral,1931.45
+83716,Hyderabad-Kolkata Passenger,VKX,Baranagar Road,Road,2025-09-02 19:39:53,2025-09-02 19:47:53,8,193.47,4,110,87,2,Tuesday,9,Golden_Quadrilateral,2124.92
+83716,Hyderabad-Kolkata Passenger,LTC,Arrah Halt,Halt,2025-09-02 23:05:18,2025-09-02 23:10:18,5,338.89,4,110,103,3,Tuesday,10,Golden_Quadrilateral,2463.81
+83716,Hyderabad-Kolkata Passenger,MRT,Kolkata Terminus,Terminus,2025-09-03 13:14:54,,0,1140.2,4,110,81,7,Tuesday,11,Golden_Quadrilateral,3604.01
+20187,Kolkata-Hyderabad Parcel Express,MRT,Kolkata Terminus,Terminus,2025-09-01 07:00:00,2025-09-01 07:00:00,45,0.0,5,110,110,9,Monday,1,Golden_Quadrilateral,0.0
+20187,Kolkata-Hyderabad Parcel Express,CSN,Thane Road,Road,2025-09-01 15:19:39,2025-09-01 15:31:39,12,757.8,5,110,91,3,Monday,2,Golden_Quadrilateral,757.8
+20187,Kolkata-Hyderabad Parcel Express,TXT,Farrukhabad Halt,Halt,2025-09-01 17:54:02,2025-09-01 18:02:02,8,182.74,5,110,77,4,Monday,3,Golden_Quadrilateral,940.54
+20187,Kolkata-Hyderabad Parcel Express,AJM,Hyderabad Central,Central,2025-09-02 02:02:40,,0,704.93,5,110,88,6,Monday,4,Golden_Quadrilateral,1645.47
+39275,Hyderabad-Delhi DEMU,AJM,Hyderabad Central,Central,2025-09-01 10:00:00,2025-09-01 10:00:00,22,0.0,4,100,100,9,Monday,1,Golden_Quadrilateral,0.0
+39275,Hyderabad-Delhi DEMU,DQD,Gaya Halt,Halt,2025-09-01 13:27:39,2025-09-01 13:32:39,5,297.64,4,100,86,4,Monday,2,Golden_Quadrilateral,297.64
+39275,Hyderabad-Delhi DEMU,QEA,Hubli–Dharwad Halt,Halt,2025-09-01 17:19:11,2025-09-01 17:24:11,5,298.27,4,100,79,3,Monday,3,Golden_Quadrilateral,595.91
+39275,Hyderabad-Delhi DEMU,JQY,Berhampur Road,Road,2025-09-01 18:12:06,2025-09-01 18:20:06,8,59.09,4,100,74,1,Monday,4,Golden_Quadrilateral,655.0
+39275,Hyderabad-Delhi DEMU,IVA,Kollam Cantt,Cantt,2025-09-01 22:09:47,2025-09-01 22:21:47,12,283.29,4,100,74,1,Monday,5,Golden_Quadrilateral,938.29
+39275,Hyderabad-Delhi DEMU,DID,Dharmavaram Cantt,Cantt,2025-09-02 05:24:12,2025-09-02 05:36:12,12,556.17,4,100,79,1,Monday,6,Golden_Quadrilateral,1494.46
+39275,Hyderabad-Delhi DEMU,UKW,Silchar Road,Road,2025-09-02 07:09:14,2025-09-02 07:17:14,8,108.54,4,100,70,2,Tuesday,7,Golden_Quadrilateral,1603.01
+39275,Hyderabad-Delhi DEMU,QXU,Kavali Cantt,Cantt,2025-09-02 07:57:05,2025-09-02 08:09:05,12,55.8,4,100,84,1,Tuesday,8,Golden_Quadrilateral,1658.81
+39275,Hyderabad-Delhi DEMU,XVD,Kollam Road,Road,2025-09-02 11:03:44,2025-09-02 11:11:44,8,273.6,4,100,94,2,Tuesday,9,Golden_Quadrilateral,1932.41
+39275,Hyderabad-Delhi DEMU,VKX,Baranagar Road,Road,2025-09-02 16:53:44,2025-09-02 17:01:44,8,456.01,4,100,80,2,Tuesday,10,Golden_Quadrilateral,2388.41
+39275,Hyderabad-Delhi DEMU,LTC,Arrah Halt,Halt,2025-09-02 20:47:19,2025-09-02 20:52:19,5,285.73,4,100,76,3,Tuesday,11,Golden_Quadrilateral,2674.14
+39275,Hyderabad-Delhi DEMU,HZP,Delhi Central,Central,2025-09-03 13:17:20,,0,1477.53,4,100,90,11,Tuesday,12,Golden_Quadrilateral,4151.68
+25536,Mumbai-Ahmedabad Freight Express,SCB,Mumbai Terminus,Terminus,2025-09-01 02:45:00,2025-09-01 02:45:00,45,0.0,5,130,130,19,Monday,1,Golden_Quadrilateral,0.0
+25536,Mumbai-Ahmedabad Freight Express,QFP,Ratlam Cantt,Cantt,2025-09-01 04:57:32,2025-09-01 05:15:32,18,240.8,5,130,109,1,Monday,2,Golden_Quadrilateral,240.8
+25536,Mumbai-Ahmedabad Freight Express,OXM,Narasaraopet Halt,Halt,2025-09-01 05:37:49,2025-09-01 05:45:49,8,42.34,5,130,114,1,Monday,3,Golden_Quadrilateral,283.14
+25536,Mumbai-Ahmedabad Freight Express,KXK,Ahmedabad Central,Central,2025-09-01 09:27:38,,0,351.2,5,130,95,5,Monday,4,Golden_Quadrilateral,634.34
+89195,Delhi-Chennai Shatabdi Express,HZP,Delhi Central,Central,2025-09-01 20:15:00,2025-09-01 20:15:00,10,0.0,1,130,130,6,Monday,1,Golden_Quadrilateral,0.0
+89195,Delhi-Chennai Shatabdi Express,BBJ,Kota Halt,Halt,2025-09-02 04:34:18,2025-09-02 04:34:18,0,773.93,1,130,93,1,Monday,2,Golden_Quadrilateral,773.93
+89195,Delhi-Chennai Shatabdi Express,ESS,Ambattur Cantt,Cantt,2025-09-02 06:09:35,2025-09-02 06:14:35,5,179.45,1,130,113,1,Tuesday,3,Golden_Quadrilateral,953.37
+89195,Delhi-Chennai Shatabdi Express,YDJ,Ratlam Road,Road,2025-09-02 09:00:37,2025-09-02 09:00:37,0,329.32,1,130,119,1,Tuesday,4,Golden_Quadrilateral,1282.69
+89195,Delhi-Chennai Shatabdi Express,CPX,Chennai Terminus,Terminus,2025-09-02 23:57:18,,0,1389.86,1,130,93,16,Tuesday,5,Golden_Quadrilateral,2672.55
+19805,Chennai-Delhi Double Decker Express,CPX,Chennai Terminus,Terminus,2025-09-01 17:45:00,2025-09-01 17:45:00,20,0.0,2,80,80,11,Monday,1,Golden_Quadrilateral,0.0
+19805,Chennai-Delhi Double Decker Express,AVX,Phagwara Road,Road,2025-09-01 21:07:06,2025-09-01 21:10:06,3,188.63,2,80,56,2,Monday,2,Golden_Quadrilateral,188.63
+19805,Chennai-Delhi Double Decker Express,UWE,Malda Cantt,Cantt,2025-09-02 01:41:09,2025-09-02 01:49:09,8,329.77,2,80,73,1,Monday,3,Golden_Quadrilateral,518.4
+19805,Chennai-Delhi Double Decker Express,HZP,Delhi Central,Central,2025-09-03 08:24:06,,0,2110.21,2,80,69,16,Tuesday,5,Golden_Quadrilateral,2686.3
+45056,Chennai-Bangalore Superfast Express,CPX,Chennai Terminus,Terminus,2025-09-01 05:30:00,2025-09-01 05:30:00,25,0.0,3,80,80,6,Monday,1,Golden_Quadrilateral,0.0
+45056,Chennai-Bangalore Superfast Express,AVX,Phagwara Road,Road,2025-09-01 08:17:31,2025-09-01 08:22:31,5,164.74,3,80,59,5,Monday,2,Golden_Quadrilateral,164.74
+45056,Chennai-Bangalore Superfast Express,ARY,Bangalore Junction,Junction,2025-09-01 11:46:18,,0,241.13,3,80,71,7,Monday,3,Golden_Quadrilateral,405.87
+22953,Hyderabad-Pune Goods Special,AJM,Hyderabad Central,Central,2025-09-01 09:45:00,2025-09-01 09:45:00,30,0.0,5,160,160,1,Monday,1,Golden_Quadrilateral,0.0
+22953,Hyderabad-Pune Goods Special,DQD,Gaya Halt,Halt,2025-09-01 11:54:15,2025-09-01 12:02:15,8,297.28,5,160,138,2,Monday,2,Golden_Quadrilateral,297.28
+22953,Hyderabad-Pune Goods Special,QEA,Hubli–Dharwad Halt,Halt,2025-09-01 14:04:00,2025-09-01 14:12:00,8,302.36,5,160,149,2,Monday,3,Golden_Quadrilateral,599.64
+22953,Hyderabad-Pune Goods Special,JQY,Berhampur Road,Road,2025-09-01 14:43:22,2025-09-01 14:55:22,12,60.13,5,160,115,3,Monday,4,Golden_Quadrilateral,659.78
+22953,Hyderabad-Pune Goods Special,OZR,Pune Junction,Junction,2025-09-01 19:00:30,,0,469.82,5,160,115,8,Monday,5,Golden_Quadrilateral,1129.6
+24552,Ahmedabad-Kolkata Humsafar Express,KXK,Ahmedabad Central,Central,2025-09-01 06:00:00,2025-09-01 06:00:00,15,0.0,2,100,100,7,Monday,1,Golden_Quadrilateral,0.0
+24552,Ahmedabad-Kolkata Humsafar Express,OXM,Narasaraopet Halt,Halt,2025-09-01 10:15:55,2025-09-01 10:17:55,2,324.17,2,100,76,1,Monday,2,Golden_Quadrilateral,324.17
+24552,Ahmedabad-Kolkata Humsafar Express,QFP,Ratlam Cantt,Cantt,2025-09-01 18:37:37,2025-09-01 18:45:37,8,632.96,2,100,76,2,Monday,4,Golden_Quadrilateral,1568.02
+24552,Ahmedabad-Kolkata Humsafar Express,ESS,Ambattur Cantt,Cantt,2025-09-02 01:31:59,2025-09-02 01:39:59,8,575.68,2,100,85,1,Monday,5,Golden_Quadrilateral,2143.7
+24552,Ahmedabad-Kolkata Humsafar Express,MRT,Kolkata Terminus,Terminus,2025-09-03 03:35:49,,0,1867.0,2,100,72,3,Tuesday,7,Golden_Quadrilateral,4549.97
+62940,Chennai-Kolkata Fast Passenger,CPX,Chennai Terminus,Terminus,2025-09-01 19:30:00,2025-09-01 19:30:00,30,0.0,4,130,130,16,Monday,1,Golden_Quadrilateral,0.0
+62940,Chennai-Kolkata Fast Passenger,AVX,Phagwara Road,Road,2025-09-01 21:01:19,2025-09-01 21:09:19,8,179.61,4,130,118,1,Monday,2,Golden_Quadrilateral,179.61
+62940,Chennai-Kolkata Fast Passenger,UWE,Malda Cantt,Cantt,2025-09-01 23:55:39,2025-09-02 00:07:39,12,327.11,4,130,118,4,Monday,3,Golden_Quadrilateral,506.72
+62940,Chennai-Kolkata Fast Passenger,EEF,Tadepalligudem Halt,Halt,2025-09-02 00:51:14,2025-09-02 00:56:14,5,67.57,4,130,93,2,Tuesday,4,Golden_Quadrilateral,574.29
+62940,Chennai-Kolkata Fast Passenger,PQN,Sonipat Cantt,Cantt,2025-09-02 03:16:50,2025-09-02 03:28:50,12,222.61,4,130,95,1,Tuesday,5,Golden_Quadrilateral,796.89
+62940,Chennai-Kolkata Fast Passenger,ZYP,Etawah Road,Road,2025-09-02 05:20:26,2025-09-02 05:28:26,8,187.87,4,130,101,4,Tuesday,6,Golden_Quadrilateral,984.76
+62940,Chennai-Kolkata Fast Passenger,WEI,Unnao Road,Road,2025-09-02 07:07:47,2025-09-02 07:15:47,8,192.06,4,130,116,2,Tuesday,7,Golden_Quadrilateral,1176.83
+62940,Chennai-Kolkata Fast Passenger,ZTM,Mumbai Road,Road,2025-09-02 07:57:26,2025-09-02 08:05:26,8,81.22,4,130,117,1,Tuesday,8,Golden_Quadrilateral,1258.05
+62940,Chennai-Kolkata Fast Passenger,AJM,Hyderabad Central,Central,2025-09-02 10:45:32,2025-09-02 11:07:32,22,314.86,4,130,118,2,Tuesday,9,Golden_Quadrilateral,1572.91
+62940,Chennai-Kolkata Fast Passenger,WEQ,Bidhannagar Road,Road,2025-09-02 17:08:47,2025-09-02 17:16:47,8,571.98,4,130,95,1,Tuesday,10,Golden_Quadrilateral,2144.88
+62940,Chennai-Kolkata Fast Passenger,MRT,Kolkata Terminus,Terminus,2025-09-03 02:55:20,,0,1157.11,4,130,120,6,Tuesday,11,Golden_Quadrilateral,3301.99
+15640,Hyderabad-Kolkata Jan Shatabdi Express,AJM,Hyderabad Central,Central,2025-09-01 17:00:00,2025-09-01 17:00:00,15,0.0,2,110,110,7,Monday,1,Golden_Quadrilateral,0.0
+15640,Hyderabad-Kolkata Jan Shatabdi Express,UWE,Malda Cantt,Cantt,2025-09-01 17:30:41,2025-09-01 17:38:41,8,41.43,2,110,81,6,Monday,4,Golden_Quadrilateral,871.28
+15640,Hyderabad-Kolkata Jan Shatabdi Express,EEF,Tadepalligudem Halt,Halt,2025-09-01 18:29:57,2025-09-01 18:31:57,2,67.51,2,110,79,3,Monday,5,Golden_Quadrilateral,938.79
+15640,Hyderabad-Kolkata Jan Shatabdi Express,MRT,Kolkata Terminus,Terminus,2025-09-02 14:33:19,,0,1621.84,2,110,81,12,Monday,6,Golden_Quadrilateral,2560.63
+83942,Mumbai-Kolkata DEMU,SCB,Mumbai Terminus,Terminus,2025-09-01 13:30:00,2025-09-01 13:30:00,30,0.0,4,80,80,7,Monday,1,Golden_Quadrilateral,0.0
+83942,Mumbai-Kolkata DEMU,OZR,Pune Junction,Junction,2025-09-01 16:05:48,2025-09-01 16:23:48,18,150.61,4,80,58,5,Monday,2,Golden_Quadrilateral,150.61
+83942,Mumbai-Kolkata DEMU,QFP,Ratlam Cantt,Cantt,2025-09-01 20:49:54,2025-09-01 21:01:54,12,301.59,4,80,68,2,Monday,3,Golden_Quadrilateral,452.2
+83942,Mumbai-Kolkata DEMU,OXM,Narasaraopet Halt,Halt,2025-09-01 21:35:59,2025-09-01 21:40:59,5,35.78,4,80,63,1,Monday,4,Golden_Quadrilateral,487.98
+83942,Mumbai-Kolkata DEMU,FFP,Bharatpur Halt,Halt,2025-09-02 03:35:50,2025-09-02 03:40:50,5,331.2,4,80,56,2,Monday,5,Golden_Quadrilateral,819.18
+83942,Mumbai-Kolkata DEMU,IVA,Kollam Cantt,Cantt,2025-09-02 08:40:55,2025-09-02 08:52:55,12,290.08,4,80,58,1,Tuesday,6,Golden_Quadrilateral,1109.26
+83942,Mumbai-Kolkata DEMU,XVD,Kollam Road,Road,2025-09-02 12:13:31,2025-09-02 12:21:31,8,250.74,4,80,75,1,Tuesday,7,Golden_Quadrilateral,1360.0
+83942,Mumbai-Kolkata DEMU,TUJ,Nizamabad Cantt,Cantt,2025-09-02 23:05:36,2025-09-02 23:17:36,12,601.15,4,80,56,2,Tuesday,8,Golden_Quadrilateral,1961.15
+83942,Mumbai-Kolkata DEMU,MQV,Gurgaon Halt,Halt,2025-09-03 00:41:12,2025-09-03 00:46:12,5,86.38,4,80,62,2,Tuesday,9,Golden_Quadrilateral,2047.53
+83942,Mumbai-Kolkata DEMU,DQD,Gaya Halt,Halt,2025-09-03 07:38:12,2025-09-03 07:43:12,5,432.6,4,80,63,2,Wednesday,10,Golden_Quadrilateral,2480.13
+83942,Mumbai-Kolkata DEMU,KXK,Ahmedabad Central,Central,2025-09-03 22:43:27,2025-09-03 23:05:27,22,885.25,4,80,59,11,Wednesday,11,Golden_Quadrilateral,3365.38
+83942,Mumbai-Kolkata DEMU,MRT,Kolkata Terminus,Terminus,2025-09-05 15:02:59,,0,2397.53,4,80,60,5,Wednesday,12,Golden_Quadrilateral,5762.91
+50015,Hyderabad-Bangalore Humsafar Express,AJM,Hyderabad Central,Central,2025-09-01 05:45:00,2025-09-01 05:45:00,15,0.0,2,110,110,4,Monday,1,Golden_Quadrilateral,0.0
+50015,Hyderabad-Bangalore Humsafar Express,ZTM,Mumbai Road,Road,2025-09-01 09:01:45,2025-09-01 09:04:45,3,288.58,2,110,88,1,Monday,2,Golden_Quadrilateral,288.58
+50015,Hyderabad-Bangalore Humsafar Express,QEA,Hubli–Dharwad Halt,Halt,2025-09-01 13:39:33,2025-09-01 13:41:33,2,398.45,2,110,87,1,Monday,4,Golden_Quadrilateral,905.95
+50015,Hyderabad-Bangalore Humsafar Express,UWE,Malda Cantt,Cantt,2025-09-01 18:10:51,2025-09-01 18:18:51,8,412.94,2,110,92,2,Monday,5,Golden_Quadrilateral,1318.89
+50015,Hyderabad-Bangalore Humsafar Express,ARY,Bangalore Junction,Junction,2025-09-02 00:07:21,,0,464.66,2,110,80,11,Monday,6,Golden_Quadrilateral,1783.54
+98660,Ahmedabad-Chennai Rajdhani Express,KXK,Ahmedabad Central,Central,2025-09-01 20:45:00,2025-09-01 20:45:00,10,0.0,1,110,110,14,Monday,1,Golden_Quadrilateral,0.0
+98660,Ahmedabad-Chennai Rajdhani Express,OXM,Narasaraopet Halt,Halt,2025-09-02 00:20:51,2025-09-02 00:20:51,0,298.61,1,110,83,1,Monday,2,Golden_Quadrilateral,298.61
+98660,Ahmedabad-Chennai Rajdhani Express,BBJ,Kota Halt,Halt,2025-09-02 07:24:37,2025-09-02 07:24:37,0,543.82,1,110,77,1,Tuesday,3,Golden_Quadrilateral,842.43
+98660,Ahmedabad-Chennai Rajdhani Express,QFP,Ratlam Cantt,Cantt,2025-09-02 14:41:34,2025-09-02 14:46:34,5,597.18,1,110,82,1,Tuesday,4,Golden_Quadrilateral,1439.61
+98660,Ahmedabad-Chennai Rajdhani Express,ESS,Ambattur Cantt,Cantt,2025-09-02 21:25:15,2025-09-02 21:30:15,5,558.15,1,110,84,1,Tuesday,5,Golden_Quadrilateral,1997.77
+98660,Ahmedabad-Chennai Rajdhani Express,CPX,Chennai Terminus,Terminus,2025-09-03 15:06:15,,0,1777.59,1,110,101,21,Tuesday,6,Golden_Quadrilateral,3775.36
+48546,Mumbai-Ahmedabad Passenger,SCB,Mumbai Terminus,Terminus,2025-09-01 04:30:00,2025-09-01 04:30:00,30,0.0,4,100,100,7,Monday,1,Golden_Quadrilateral,0.0
+48546,Mumbai-Ahmedabad Passenger,QFP,Ratlam Cantt,Cantt,2025-09-01 07:28:36,2025-09-01 07:40:36,12,261.96,4,100,88,3,Monday,2,Golden_Quadrilateral,261.96
+48546,Mumbai-Ahmedabad Passenger,OXM,Narasaraopet Halt,Halt,2025-09-01 08:10:34,2025-09-01 08:15:34,5,36.97,4,100,74,1,Monday,3,Golden_Quadrilateral,298.92
+48546,Mumbai-Ahmedabad Passenger,KXK,Ahmedabad Central,Central,2025-09-01 12:50:34,,0,334.58,4,100,73,1,Monday,4,Golden_Quadrilateral,633.5
+30963,Kolkata-Ahmedabad Express,MRT,Kolkata Terminus,Terminus,2025-09-01 06:45:00,2025-09-01 06:45:00,25,0.0,3,180,180,9,Monday,1,Golden_Quadrilateral,0.0
+30963,Kolkata-Ahmedabad Express,CSN,Thane Road,Road,2025-09-01 12:20:41,2025-09-01 12:25:41,5,883.99,3,180,158,2,Monday,2,Golden_Quadrilateral,883.99
+30963,Kolkata-Ahmedabad Express,EXX,Kishanganj Cantt,Cantt,2025-09-01 19:10:56,2025-09-01 19:20:56,10,1053.63,3,180,156,1,Monday,3,Golden_Quadrilateral,1937.62
+30963,Kolkata-Ahmedabad Express,TXT,Farrukhabad Halt,Halt,2025-09-02 02:56:41,2025-09-02 02:59:41,3,1101.41,3,180,145,4,Monday,4,Golden_Quadrilateral,3039.04
+30963,Kolkata-Ahmedabad Express,KFI,Agra Road,Road,2025-09-02 03:24:09,2025-09-02 03:29:09,5,52.19,3,180,128,2,Tuesday,5,Golden_Quadrilateral,3091.23
+30963,Kolkata-Ahmedabad Express,LTC,Arrah Halt,Halt,2025-09-02 06:40:45,2025-09-02 06:43:45,3,411.92,3,180,129,1,Tuesday,6,Golden_Quadrilateral,3503.15
+30963,Kolkata-Ahmedabad Express,KXK,Ahmedabad Central,Central,2025-09-02 14:00:38,,0,1194.17,3,180,164,11,Tuesday,7,Golden_Quadrilateral,4697.32
+94094,Chennai-Pune Rajdhani Express,CPX,Chennai Terminus,Terminus,2025-09-01 05:45:00,2025-09-01 05:45:00,15,0.0,1,80,80,13,Monday,1,Golden_Quadrilateral,0.0
+94094,Chennai-Pune Rajdhani Express,AVX,Phagwara Road,Road,2025-09-01 08:47:39,2025-09-01 08:47:39,0,185.7,1,80,61,2,Monday,2,Golden_Quadrilateral,185.7
+94094,Chennai-Pune Rajdhani Express,UWE,Malda Cantt,Cantt,2025-09-01 14:38:31,2025-09-01 14:43:31,5,327.48,1,80,56,4,Monday,3,Golden_Quadrilateral,513.18
+94094,Chennai-Pune Rajdhani Express,EEF,Tadepalligudem Halt,Halt,2025-09-01 15:29:24,2025-09-01 15:29:24,0,56.58,1,80,74,3,Monday,4,Golden_Quadrilateral,569.76
+94094,Chennai-Pune Rajdhani Express,PQN,Sonipat Cantt,Cantt,2025-09-01 18:25:58,2025-09-01 18:30:58,5,214.82,1,80,73,2,Monday,5,Golden_Quadrilateral,784.59
+94094,Chennai-Pune Rajdhani Express,OZR,Pune Junction,Junction,2025-09-02 08:04:10,,0,813.2,1,80,60,5,Monday,6,Golden_Quadrilateral,1597.79
+75315,Nagpur-Amritsar Shatabdi Express,TZU,Nagpur Cantt,Cantt,2025-09-01 18:30:00,2025-09-01 18:30:00,5,0.0,1,130,130,4,Monday,1,North_South,0.0
+75315,Nagpur-Amritsar Shatabdi Express,ZSH,Anantapuram Road,Road,2025-09-01 19:48:02,2025-09-01 19:48:02,0,146.99,1,130,113,2,Monday,2,North_South,146.99
+75315,Nagpur-Amritsar Shatabdi Express,WKK,Chapra Cantt,Cantt,2025-09-01 21:28:41,2025-09-01 21:33:41,5,202.95,1,130,121,2,Monday,3,North_South,349.94
+75315,Nagpur-Amritsar Shatabdi Express,SFP,Nellore Cantt,Cantt,2025-09-01 22:18:41,2025-09-01 22:23:41,5,72.76,1,130,97,3,Monday,4,North_South,422.71
+75315,Nagpur-Amritsar Shatabdi Express,QOU,Amritsar Junction,Junction,2025-09-02 11:36:14,,0,1360.55,1,130,103,7,Monday,5,North_South,1783.25
+70743,Ghaziabad-Mathura Passenger,XWW,Ghaziabad Cantt,Cantt,2025-09-01 23:15:00,2025-09-01 23:15:00,12,0.0,4,100,100,4,Monday,1,North_South,0.0
+70743,Ghaziabad-Mathura Passenger,HKK,Latur Halt,Halt,2025-09-01 23:28:51,2025-09-01 23:33:51,5,18.94,4,100,82,1,Monday,2,North_South,18.94
+70743,Ghaziabad-Mathura Passenger,LBB,Kochi Halt,Halt,2025-09-02 00:26:21,2025-09-02 00:31:21,5,63.86,4,100,73,1,Monday,3,North_South,82.81
+70743,Ghaziabad-Mathura Passenger,AWS,Panchkula Road,Road,2025-09-02 01:12:53,2025-09-02 01:20:53,8,63.02,4,100,91,3,Tuesday,4,North_South,145.82
+70743,Ghaziabad-Mathura Passenger,HVR,Mathura Road,Road,2025-09-02 02:54:35,,0,135.85,4,100,87,6,Tuesday,5,North_South,281.67
+41332,Ludhiana-Ambala Jan Shatabdi Express,FMG,Ludhiana Cantt,Cantt,2025-09-01 13:45:00,2025-09-01 13:45:00,8,0.0,2,130,130,6,Monday,1,North_South,0.0
+87395,Bhopal-Amritsar Double Decker Express,XFE,Bhopal Cantt,Cantt,2025-09-01 23:45:00,2025-09-01 23:45:00,8,0.0,2,110,110,9,Monday,1,North_South,0.0
+87395,Bhopal-Amritsar Double Decker Express,LNT,Pondicherry Road,Road,2025-09-02 00:49:55,2025-09-02 00:52:55,3,91.97,2,110,85,2,Monday,2,North_South,91.97
+87395,Bhopal-Amritsar Double Decker Express,WKK,Chapra Cantt,Cantt,2025-09-02 03:11:48,2025-09-02 03:19:48,8,194.44,2,110,84,5,Tuesday,3,North_South,286.41
+87395,Bhopal-Amritsar Double Decker Express,SFP,Nellore Cantt,Cantt,2025-09-02 06:02:26,2025-09-02 06:10:26,8,216.86,2,110,80,2,Tuesday,5,North_South,741.41
+87395,Bhopal-Amritsar Double Decker Express,QOU,Amritsar Junction,Junction,2025-09-02 18:01:44,,0,1066.95,2,110,90,8,Tuesday,7,North_South,2207.29
+45565,Secunderabad-Mathura Inter City Express,RXK,Secunderabad Cantt,Cantt,2025-09-01 20:45:00,2025-09-01 20:45:00,10,0.0,3,60,60,3,Monday,1,North_South,0.0
+45565,Secunderabad-Mathura Inter City Express,UCA,Nadiad Cantt,Cantt,2025-09-02 00:32:05,2025-09-02 00:42:05,10,211.94,3,60,56,2,Monday,2,North_South,211.94
+45565,Secunderabad-Mathura Inter City Express,TZU,Nagpur Cantt,Cantt,2025-09-02 06:46:32,2025-09-02 06:56:32,10,340.17,3,60,56,5,Tuesday,3,North_South,552.11
+45565,Secunderabad-Mathura Inter City Express,ZSH,Anantapuram Road,Road,2025-09-02 09:37:37,2025-09-02 09:42:37,5,120.81,3,60,45,3,Tuesday,4,North_South,672.92
+45565,Secunderabad-Mathura Inter City Express,HVR,Mathura Road,Road,2025-09-03 03:29:03,,0,817.6,3,60,46,7,Tuesday,5,North_South,1490.52
+36772,Chandigarh-Ghaziabad Double Decker Express,MKC,Chandigarh Cantt,Cantt,2025-09-01 13:00:00,2025-09-01 13:00:00,8,0.0,2,100,100,6,Monday,1,North_South,0.0
+36772,Chandigarh-Ghaziabad Double Decker Express,KHT,Burhanpur Halt,Halt,2025-09-01 13:22:42,2025-09-01 13:24:42,2,28.76,2,100,76,2,Monday,2,North_South,28.76
+36772,Chandigarh-Ghaziabad Double Decker Express,IXJ,Siwan Halt,Halt,2025-09-01 14:08:35,2025-09-01 14:10:35,2,51.93,2,100,71,2,Monday,3,North_South,80.69
+36772,Chandigarh-Ghaziabad Double Decker Express,JDC,Ambala Road,Road,2025-09-01 15:16:29,2025-09-01 15:19:29,3,95.57,2,100,87,3,Monday,4,North_South,176.26
+36772,Chandigarh-Ghaziabad Double Decker Express,XWW,Ghaziabad Cantt,Cantt,2025-09-01 18:29:07,,0,281.27,2,100,89,5,Monday,5,North_South,457.53
+74391,Gwalior-Chandigarh Goods Special,IXO,Gwalior Cantt,Cantt,2025-09-01 16:30:00,2025-09-01 16:30:00,18,0.0,5,100,100,8,Monday,1,North_South,0.0
+74391,Gwalior-Chandigarh Goods Special,GFA,Bhusawal Cantt,Cantt,2025-09-01 17:15:32,2025-09-01 17:33:32,18,54.64,5,100,72,2,Monday,2,North_South,54.64
+74391,Gwalior-Chandigarh Goods Special,EAC,Visakhapatnam Road,Road,2025-09-01 18:24:26,2025-09-01 18:36:26,12,74.67,5,100,88,3,Monday,3,North_South,129.31
+74391,Gwalior-Chandigarh Goods Special,VUG,Panchkula Cantt,Cantt,2025-09-01 18:55:49,2025-09-01 19:13:49,18,23.57,5,100,73,3,Monday,4,North_South,152.89
+74391,Gwalior-Chandigarh Goods Special,HGD,Raurkela Cantt,Cantt,2025-09-01 19:56:40,2025-09-01 20:14:40,18,60.7,5,100,85,1,Monday,5,North_South,213.58
+74391,Gwalior-Chandigarh Goods Special,VZB,Nashik Cantt,Cantt,2025-09-01 20:35:01,2025-09-01 20:53:01,18,27.15,5,100,80,4,Monday,6,North_South,240.73
+74391,Gwalior-Chandigarh Goods Special,KYU,Agra Road,Road,2025-09-01 21:38:59,2025-09-01 21:50:59,12,62.81,5,100,82,2,Monday,7,North_South,303.55
+74391,Gwalior-Chandigarh Goods Special,MKC,Chandigarh Cantt,Cantt,2025-09-02 05:48:53,,0,573.49,5,100,72,8,Monday,8,North_South,877.03
+41527,Nagpur-Agra Goods Special,TZU,Nagpur Cantt,Cantt,2025-09-01 07:15:00,2025-09-01 07:15:00,18,0.0,5,160,160,2,Monday,1,North_South,0.0
+41527,Nagpur-Agra Goods Special,ZSH,Anantapuram Road,Road,2025-09-01 08:19:42,2025-09-01 08:31:42,12,144.53,5,160,134,1,Monday,2,North_South,144.53
+41527,Nagpur-Agra Goods Special,WKK,Chapra Cantt,Cantt,2025-09-01 09:53:43,2025-09-01 10:11:43,18,185.88,5,160,136,2,Monday,3,North_South,330.41
+41527,Nagpur-Agra Goods Special,SFP,Nellore Cantt,Cantt,2025-09-01 10:40:04,2025-09-01 10:58:04,18,71.37,5,160,151,2,Monday,4,North_South,401.78
+41527,Nagpur-Agra Goods Special,XFE,Bhopal Cantt,Cantt,2025-09-01 12:40:30,2025-09-01 12:58:30,18,199.75,5,160,117,8,Monday,5,North_South,601.52
+41527,Nagpur-Agra Goods Special,LNT,Pondicherry Road,Road,2025-09-01 13:54:33,2025-09-01 14:06:33,12,107.43,5,160,115,2,Monday,6,North_South,708.96
+41527,Nagpur-Agra Goods Special,KYU,Agra Road,Road,2025-09-01 18:27:52,,0,496.49,5,160,114,6,Monday,7,North_South,1205.44
+35243,Agra-Mathura Rajdhani Express,KYU,Agra Road,Road,2025-09-01 18:15:00,2025-09-01 18:15:00,0,0.0,1,110,110,9,Monday,1,North_South,0.0
+26009,Jammu-Ludhiana Mail Express,UOI,Jammu Junction,Junction,2025-09-01 16:45:00,2025-09-01 16:45:00,15,0.0,3,100,100,10,Monday,1,North_South,0.0
+26009,Jammu-Ludhiana Mail Express,QOU,Amritsar Junction,Junction,2025-09-01 19:01:17,2025-09-01 19:16:17,15,168.09,3,100,74,5,Monday,2,North_South,168.09
+26009,Jammu-Ludhiana Mail Express,MFG,Panchkula Road,Road,2025-09-01 20:20:52,2025-09-01 20:25:52,5,87.19,3,100,81,1,Monday,3,North_South,255.28
+26009,Jammu-Ludhiana Mail Express,NCQ,Sultan Road,Road,2025-09-01 21:30:25,2025-09-01 21:35:25,5,87.14,3,100,81,1,Monday,4,North_South,342.42
+26009,Jammu-Ludhiana Mail Express,BPA,Bhilai Road,Road,2025-09-01 23:24:08,2025-09-01 23:29:08,5,148.57,3,100,82,1,Monday,5,North_South,490.99
+26009,Jammu-Ludhiana Mail Express,OVZ,Ranchi Cantt,Cantt,2025-09-02 00:44:33,2025-09-02 00:54:33,10,104.33,3,100,83,1,Monday,6,North_South,595.32
+26009,Jammu-Ludhiana Mail Express,FMG,Ludhiana Cantt,Cantt,2025-09-02 02:07:37,,0,92.56,3,100,76,4,Tuesday,7,North_South,687.89
+32532,Ludhiana-Bhopal Rajdhani Express,FMG,Ludhiana Cantt,Cantt,2025-09-01 20:00:00,2025-09-01 20:00:00,5,0.0,1,100,100,8,Monday,1,North_South,0.0
+32532,Ludhiana-Bhopal Rajdhani Express,KKU,Dharmavaram Halt,Halt,2025-09-01 20:28:30,2025-09-01 20:28:30,0,40.86,1,100,86,2,Monday,2,North_South,40.86
+32532,Ludhiana-Bhopal Rajdhani Express,OVZ,Ranchi Cantt,Cantt,2025-09-01 21:53:07,2025-09-01 21:58:07,5,117.05,1,100,83,1,Monday,3,North_South,157.91
+32532,Ludhiana-Bhopal Rajdhani Express,XFE,Bhopal Cantt,Cantt,2025-09-02 12:41:00,,0,1353.77,1,100,92,2,Monday,4,North_South,1511.68
+81217,Nagpur-Ambala Vande Bharat Express,TZU,Nagpur Cantt,Cantt,2025-09-01 07:00:00,2025-09-01 07:00:00,5,0.0,1,130,130,6,Monday,1,North_South,0.0
+81217,Nagpur-Ambala Vande Bharat Express,ZSH,Anantapuram Road,Road,2025-09-01 08:29:56,2025-09-01 08:29:56,0,146.9,1,130,98,1,Monday,2,North_South,146.9
+81217,Nagpur-Ambala Vande Bharat Express,WKK,Chapra Cantt,Cantt,2025-09-01 10:02:29,2025-09-01 10:07:29,5,177.41,1,130,115,4,Monday,3,North_South,324.31
+81217,Nagpur-Ambala Vande Bharat Express,SFP,Nellore Cantt,Cantt,2025-09-01 10:43:14,2025-09-01 10:48:14,5,70.9,1,130,119,1,Monday,4,North_South,395.2
+81217,Nagpur-Ambala Vande Bharat Express,XFE,Bhopal Cantt,Cantt,2025-09-01 13:19:41,2025-09-01 13:24:41,5,237.25,1,130,94,8,Monday,5,North_South,632.46
+86852,Bhopal-Jammu Container Special,XFE,Bhopal Cantt,Cantt,2025-09-01 09:30:00,2025-09-01 09:30:00,18,0.0,5,130,130,9,Monday,1,North_South,0.0
+86852,Bhopal-Jammu Container Special,LNT,Pondicherry Road,Road,2025-09-01 10:32:43,2025-09-01 10:44:43,12,105.6,5,130,101,3,Monday,2,North_South,105.6
+86852,Bhopal-Jammu Container Special,WKK,Chapra Cantt,Cantt,2025-09-01 12:42:37,2025-09-01 13:00:37,18,178.81,5,130,91,2,Monday,3,North_South,284.41
+86852,Bhopal-Jammu Container Special,UOI,Jammu Junction,Junction,2025-09-02 03:27:51,,0,1532.12,5,130,106,1,Monday,4,North_South,1816.52
+42287,Ludhiana-Ghaziabad Superfast Express,FMG,Ludhiana Cantt,Cantt,2025-09-01 06:30:00,2025-09-01 06:30:00,10,0.0,3,130,130,10,Monday,1,North_South,0.0
+42287,Ludhiana-Ghaziabad Superfast Express,KKU,Dharmavaram Halt,Halt,2025-09-01 06:57:28,2025-09-01 07:00:28,3,43.06,3,130,94,3,Monday,2,North_South,43.06
+42287,Ludhiana-Ghaziabad Superfast Express,KHT,Burhanpur Halt,Halt,2025-09-01 07:39:58,2025-09-01 07:42:58,3,61.21,3,130,93,1,Monday,3,North_South,104.26
+42287,Ludhiana-Ghaziabad Superfast Express,IXJ,Siwan Halt,Halt,2025-09-01 08:13:51,2025-09-01 08:16:51,3,49.42,3,130,96,2,Monday,4,North_South,153.69
+42287,Ludhiana-Ghaziabad Superfast Express,XWW,Ghaziabad Cantt,Cantt,2025-09-01 11:50:27,,0,377.36,3,130,106,5,Monday,5,North_South,531.05
+38665,Gwalior-Nagpur Goods Special,IXO,Gwalior Cantt,Cantt,2025-09-01 05:30:00,2025-09-01 05:30:00,18,0.0,5,160,160,1,Monday,1,North_South,0.0
+38665,Gwalior-Nagpur Goods Special,GFA,Bhusawal Cantt,Cantt,2025-09-01 05:50:57,2025-09-01 06:08:57,18,49.61,5,160,142,4,Monday,2,North_South,49.61
+38665,Gwalior-Nagpur Goods Special,EAC,Visakhapatnam Road,Road,2025-09-01 06:36:03,2025-09-01 06:48:03,12,64.13,5,160,142,4,Monday,3,North_South,113.74
+38665,Gwalior-Nagpur Goods Special,TZU,Nagpur Cantt,Cantt,2025-09-01 13:24:34,,0,878.93,5,160,133,9,Monday,4,North_South,992.67
+19474,Chandigarh-Ghaziabad MEMU,MKC,Chandigarh Cantt,Cantt,2025-09-01 03:30:00,2025-09-01 03:30:00,12,0.0,4,130,130,11,Monday,1,North_South,0.0
+19474,Chandigarh-Ghaziabad MEMU,KHT,Burhanpur Halt,Halt,2025-09-01 03:43:23,2025-09-01 03:48:23,5,23.89,4,130,107,2,Monday,2,North_South,23.89
+19474,Chandigarh-Ghaziabad MEMU,IXJ,Siwan Halt,Halt,2025-09-01 04:22:09,2025-09-01 04:27:09,5,54.02,4,130,96,1,Monday,3,North_South,77.91
+19474,Chandigarh-Ghaziabad MEMU,JDC,Ambala Road,Road,2025-09-01 05:24:13,2025-09-01 05:32:13,8,94.17,4,130,99,3,Monday,4,North_South,172.08
+19474,Chandigarh-Ghaziabad MEMU,QDS,Allahabad Cantt,Cantt,2025-09-01 05:50:28,2025-09-01 06:02:28,12,27.67,4,130,91,2,Monday,5,North_South,199.75
+19474,Chandigarh-Ghaziabad MEMU,EFT,Gurgaon Halt,Halt,2025-09-01 07:11:32,2025-09-01 07:16:32,5,127.77,4,130,111,2,Monday,6,North_South,327.52
+19474,Chandigarh-Ghaziabad MEMU,VKZ,Haridwar Cantt,Cantt,2025-09-01 07:30:36,2025-09-01 07:42:36,12,23.46,4,130,100,1,Monday,7,North_South,350.98
+19474,Chandigarh-Ghaziabad MEMU,MXI,Chinsurah Halt,Halt,2025-09-01 08:37:04,2025-09-01 08:42:04,5,94.4,4,130,104,3,Monday,8,North_South,445.38
+19474,Chandigarh-Ghaziabad MEMU,QXH,Panipat Road,Road,2025-09-01 09:19:27,2025-09-01 09:27:27,8,61.68,4,130,99,4,Monday,9,North_South,507.05
+19474,Chandigarh-Ghaziabad MEMU,XWW,Ghaziabad Cantt,Cantt,2025-09-01 10:40:54,,0,117.53,4,130,96,5,Monday,10,North_South,624.58
+72871,Mathura-Gwalior Freight Express,HVR,Mathura Road,Road,2025-09-01 06:30:00,2025-09-01 06:30:00,12,0.0,5,110,110,3,Monday,1,North_South,0.0
+72871,Mathura-Gwalior Freight Express,KYU,Agra Road,Road,2025-09-01 07:07:57,2025-09-01 07:19:57,12,58.84,5,110,93,7,Monday,2,North_South,58.84
+72871,Mathura-Gwalior Freight Express,VZB,Nashik Cantt,Cantt,2025-09-01 08:02:23,2025-09-01 08:20:23,18,64.35,5,110,91,5,Monday,3,North_South,123.19
+72871,Mathura-Gwalior Freight Express,HGD,Raurkela Cantt,Cantt,2025-09-01 08:39:41,2025-09-01 08:57:41,18,27.02,5,110,84,2,Monday,4,North_South,150.21
+72871,Mathura-Gwalior Freight Express,EAC,Visakhapatnam Road,Road,2025-09-01 09:27:26,2025-09-01 09:39:26,12,40.66,5,110,82,2,Monday,5,North_South,190.87
+72871,Mathura-Gwalior Freight Express,IXO,Gwalior Cantt,Cantt,2025-09-01 10:53:27,,0,109.8,5,110,89,3,Monday,6,North_South,300.67
+23039,Mathura-Chandigarh Express,HVR,Mathura Road,Road,2025-09-01 22:15:00,2025-09-01 22:15:00,5,0.0,3,160,160,6,Monday,1,North_South,0.0
+23039,Mathura-Chandigarh Express,KYU,Agra Road,Road,2025-09-01 22:43:44,2025-09-01 22:48:44,5,61.79,3,160,129,6,Monday,2,North_South,61.79
+23039,Mathura-Chandigarh Express,VZB,Nashik Cantt,Cantt,2025-09-01 23:12:11,2025-09-01 23:22:11,10,57.04,3,160,146,1,Monday,3,North_South,118.84
+23039,Mathura-Chandigarh Express,AWS,Panchkula Road,Road,2025-09-02 00:55:59,2025-09-02 01:00:59,5,225.15,3,160,144,3,Monday,4,North_South,343.99
+23039,Mathura-Chandigarh Express,LBB,Kochi Halt,Halt,2025-09-02 01:33:02,2025-09-02 01:36:02,3,65.7,3,160,123,1,Tuesday,5,North_South,409.69
+23039,Mathura-Chandigarh Express,MKC,Chandigarh Cantt,Cantt,2025-09-02 04:23:25,,0,390.57,3,160,140,2,Tuesday,6,North_South,800.26
+98008,Ambala-Secunderabad Goods Special,JDC,Ambala Road,Road,2025-09-01 03:00:00,2025-09-01 03:00:00,12,0.0,5,130,130,1,Monday,1,North_South,0.0
+98008,Ambala-Secunderabad Goods Special,QDS,Allahabad Cantt,Cantt,2025-09-01 03:18:26,2025-09-01 03:36:26,18,30.12,5,130,98,1,Monday,2,North_South,30.12
+98008,Ambala-Secunderabad Goods Special,KHT,Burhanpur Halt,Halt,2025-09-01 04:11:12,2025-09-01 04:19:12,8,67.23,5,130,116,2,Monday,3,North_South,97.35
+98008,Ambala-Secunderabad Goods Special,RXK,Secunderabad Cantt,Cantt,2025-09-01 23:23:55,,0,2117.73,5,130,111,1,Monday,4,North_South,2215.08
+80704,Mathura-Bhopal Passenger,HVR,Mathura Road,Road,2025-09-01 03:00:00,2025-09-01 03:00:00,8,0.0,4,100,100,1,Monday,1,North_South,0.0
+80704,Mathura-Bhopal Passenger,KYU,Agra Road,Road,2025-09-01 03:52:04,2025-09-01 04:00:04,8,61.61,4,100,71,2,Monday,2,North_South,61.61
+80704,Mathura-Bhopal Passenger,VZB,Nashik Cantt,Cantt,2025-09-01 04:42:04,2025-09-01 04:54:04,12,58.12,4,100,83,1,Monday,3,North_South,119.74
+80704,Mathura-Bhopal Passenger,HGD,Raurkela Cantt,Cantt,2025-09-01 05:11:50,2025-09-01 05:23:50,12,24.56,4,100,83,1,Monday,4,North_South,144.29
+80704,Mathura-Bhopal Passenger,EAC,Visakhapatnam Road,Road,2025-09-01 05:46:40,2025-09-01 05:54:40,8,34.25,4,100,90,3,Monday,5,North_South,178.54
+80704,Mathura-Bhopal Passenger,VUG,Panchkula Cantt,Cantt,2025-09-01 06:13:08,2025-09-01 06:25:08,12,27.08,4,100,88,1,Monday,6,North_South,205.62
+80704,Mathura-Bhopal Passenger,GFA,Bhusawal Cantt,Cantt,2025-09-01 07:22:25,2025-09-01 07:34:25,12,83.08,4,100,87,4,Monday,7,North_South,288.7
+80704,Mathura-Bhopal Passenger,EWT,Bijapur Road,Road,2025-09-01 11:24:55,2025-09-01 11:32:55,8,276.6,4,100,72,4,Monday,8,North_South,565.31
+80704,Mathura-Bhopal Passenger,IXO,Gwalior Cantt,Cantt,2025-09-01 14:26:04,2025-09-01 14:38:04,12,268.36,4,100,93,9,Monday,9,North_South,833.67
+80704,Mathura-Bhopal Passenger,XFE,Bhopal Cantt,Cantt,2025-09-01 19:55:32,,0,465.61,4,100,88,7,Monday,10,North_South,1299.28
+35776,Jhansi-Secunderabad Humsafar Express,DXE,Jhansi Cantt,Cantt,2025-09-01 04:00:00,2025-09-01 04:00:00,8,0.0,2,100,100,6,Monday,1,North_South,0.0
+35776,Jhansi-Secunderabad Humsafar Express,OMD,Nagercoil Road,Road,2025-09-01 05:23:53,2025-09-01 05:26:53,3,111.87,2,100,80,3,Monday,2,North_South,111.87
+35776,Jhansi-Secunderabad Humsafar Express,IXO,Gwalior Cantt,Cantt,2025-09-01 07:25:50,2025-09-01 07:33:50,8,182.37,2,100,92,3,Monday,3,North_South,294.24
+35776,Jhansi-Secunderabad Humsafar Express,GNC,Singrauli Halt,Halt,2025-09-01 10:26:03,2025-09-01 10:28:03,2,269.81,2,100,94,5,Monday,4,North_South,564.05
+35776,Jhansi-Secunderabad Humsafar Express,GFA,Bhusawal Cantt,Cantt,2025-09-01 14:02:05,2025-09-01 14:10:05,8,292.51,2,100,82,2,Monday,5,North_South,856.57
+35776,Jhansi-Secunderabad Humsafar Express,RXK,Secunderabad Cantt,Cantt,2025-09-02 06:15:42,,0,1239.2,2,100,77,3,Monday,6,North_South,2095.76
+22376,Agra-Nagpur Passenger,KYU,Agra Road,Road,2025-09-01 15:15:00,2025-09-01 15:15:00,8,0.0,4,160,160,6,Monday,1,North_South,0.0
+22376,Agra-Nagpur Passenger,HGD,Raurkela Cantt,Cantt,2025-09-01 15:35:13,2025-09-01 15:47:13,12,45.51,4,160,135,2,Monday,2,North_South,45.51
+22376,Agra-Nagpur Passenger,VZB,Nashik Cantt,Cantt,2025-09-01 15:59:35,2025-09-01 16:11:35,12,24.11,4,160,117,6,Monday,3,North_South,69.62
+22376,Agra-Nagpur Passenger,HVR,Mathura Road,Road,2025-09-01 16:53:31,2025-09-01 17:01:31,8,78.28,4,160,112,3,Monday,4,North_South,147.9
+22376,Agra-Nagpur Passenger,EAC,Visakhapatnam Road,Road,2025-09-01 17:58:14,2025-09-01 18:06:14,8,109.65,4,160,116,6,Monday,5,North_South,257.55
+22376,Agra-Nagpur Passenger,GFA,Bhusawal Cantt,Cantt,2025-09-01 18:38:45,2025-09-01 18:50:45,12,67.75,4,160,125,3,Monday,6,North_South,325.29
+22376,Agra-Nagpur Passenger,TZU,Nagpur Cantt,Cantt,2025-09-02 01:19:02,,0,886.57,4,160,137,3,Monday,7,North_South,1211.87
+79907,Ludhiana-Jammu Garib Rath Express,FMG,Ludhiana Cantt,Cantt,2025-09-01 06:45:00,2025-09-01 06:45:00,8,0.0,2,80,80,5,Monday,1,North_South,0.0
+79907,Ludhiana-Jammu Garib Rath Express,KKU,Dharmavaram Halt,Halt,2025-09-01 07:18:16,2025-09-01 07:20:16,2,36.6,2,80,66,1,Monday,2,North_South,36.6
+79907,Ludhiana-Jammu Garib Rath Express,OVZ,Ranchi Cantt,Cantt,2025-09-01 09:11:40,2025-09-01 09:19:40,8,115.12,2,80,62,1,Monday,3,North_South,151.72
+79907,Ludhiana-Jammu Garib Rath Express,UOI,Jammu Junction,Junction,2025-09-01 11:55:19,,0,194.56,2,80,75,5,Monday,4,North_South,346.28
+92064,Ambala-Jammu Mail Express,JDC,Ambala Road,Road,2025-09-01 09:45:00,2025-09-01 09:45:00,5,0.0,3,160,160,1,Monday,1,North_South,0.0
+92064,Ambala-Jammu Mail Express,QDS,Allahabad Cantt,Cantt,2025-09-01 09:57:08,2025-09-01 10:07:08,10,27.74,3,160,137,1,Monday,2,North_South,27.74
+92064,Ambala-Jammu Mail Express,KHT,Burhanpur Halt,Halt,2025-09-01 10:43:27,2025-09-01 10:46:27,3,75.05,3,160,124,2,Monday,3,North_South,102.79
+92064,Ambala-Jammu Mail Express,MKC,Chandigarh Cantt,Cantt,2025-09-01 11:00:52,2025-09-01 11:10:52,10,28.59,3,160,119,8,Monday,4,North_South,131.38
+92064,Ambala-Jammu Mail Express,IXJ,Siwan Halt,Halt,2025-09-01 11:28:17,2025-09-01 11:31:17,3,40.63,3,160,140,1,Monday,5,North_South,172.01
+92064,Ambala-Jammu Mail Express,KKU,Dharmavaram Halt,Halt,2025-09-01 12:06:04,2025-09-01 12:09:04,3,75.37,3,160,130,5,Monday,6,North_South,247.38
+92064,Ambala-Jammu Mail Express,UOI,Jammu Junction,Junction,2025-09-01 14:34:01,,0,343.03,3,160,142,2,Monday,7,North_South,590.41
+46160,Mathura-Amritsar Double Decker Express,HVR,Mathura Road,Road,2025-09-01 19:00:00,2025-09-01 19:00:00,3,0.0,2,60,60,2,Monday,1,North_South,0.0
+46160,Mathura-Amritsar Double Decker Express,KYU,Agra Road,Road,2025-09-01 20:12:13,2025-09-01 20:15:13,3,67.41,2,60,56,5,Monday,2,North_South,67.41
+46160,Mathura-Amritsar Double Decker Express,VZB,Nashik Cantt,Cantt,2025-09-01 21:36:53,2025-09-01 21:44:53,8,69.42,2,60,51,6,Monday,3,North_South,136.83
+46160,Mathura-Amritsar Double Decker Express,HGD,Raurkela Cantt,Cantt,2025-09-01 22:20:23,2025-09-01 22:28:23,8,26.62,2,60,45,1,Monday,4,North_South,163.45
+46160,Mathura-Amritsar Double Decker Express,QOU,Amritsar Junction,Junction,2025-09-02 14:49:30,,0,850.31,2,60,52,8,Monday,5,North_South,1013.76
+89109,Nashik-Gandhinagar Fast Passenger,MDV,Nashik Cantt,Cantt,2025-09-01 12:45:00,2025-09-01 12:45:00,12,0.0,4,100,100,1,Monday,1,East_West,0.0
+89109,Nashik-Gandhinagar Fast Passenger,WHV,Nagercoil Halt,Halt,2025-09-01 13:27:00,2025-09-01 13:32:00,5,49.01,4,100,70,4,Monday,2,East_West,49.01
+89109,Nashik-Gandhinagar Fast Passenger,TUF,Dehradun Cantt,Cantt,2025-09-01 15:19:49,2025-09-01 15:31:49,12,140.16,4,100,78,2,Monday,3,East_West,189.18
+89109,Nashik-Gandhinagar Fast Passenger,RRG,Shimoga Cantt,Cantt,2025-09-01 17:00:31,2025-09-01 17:12:31,12,115.31,4,100,78,1,Monday,4,East_West,304.49
+89109,Nashik-Gandhinagar Fast Passenger,LPS,Morena Cantt,Cantt,2025-09-01 18:36:20,2025-09-01 18:48:20,12,101.98,4,100,73,1,Monday,5,East_West,406.47
+89109,Nashik-Gandhinagar Fast Passenger,QUJ,Ambala Halt,Halt,2025-09-01 20:32:14,2025-09-01 20:37:14,5,162.76,4,100,94,2,Monday,6,East_West,569.23
+89109,Nashik-Gandhinagar Fast Passenger,PAH,Guna Cantt,Cantt,2025-09-02 00:31:28,2025-09-02 00:43:28,12,296.71,4,100,76,5,Monday,7,East_West,865.93
+89109,Nashik-Gandhinagar Fast Passenger,TDR,Pudukkottai Cantt,Cantt,2025-09-02 03:07:52,2025-09-02 03:19:52,12,218.99,4,100,91,2,Tuesday,8,East_West,1084.93
+89109,Nashik-Gandhinagar Fast Passenger,KOK,Surat Junction,Junction,2025-09-02 05:46:54,2025-09-02 06:04:54,18,223.01,4,100,91,2,Tuesday,9,East_West,1307.93
+89109,Nashik-Gandhinagar Fast Passenger,OAR,Gandhinagar Junction,Junction,2025-09-02 10:28:16,,0,342.37,4,100,78,1,Tuesday,10,East_West,1650.31
+24814,Surat-Bhubaneswar MEMU,KOK,Surat Junction,Junction,2025-09-01 13:00:00,2025-09-01 13:00:00,18,0.0,4,100,100,5,Monday,1,East_West,0.0
+24814,Surat-Bhubaneswar MEMU,PAH,Guna Cantt,Cantt,2025-09-01 13:37:12,2025-09-01 13:49:12,12,57.05,4,100,92,2,Monday,2,East_West,57.05
+24814,Surat-Bhubaneswar MEMU,LPS,Morena Cantt,Cantt,2025-09-01 15:32:42,2025-09-01 15:44:42,12,136.28,4,100,79,1,Monday,3,East_West,193.32
+24814,Surat-Bhubaneswar MEMU,BCN,Erode Road,Road,2025-09-01 18:17:50,2025-09-01 18:25:50,8,216.95,4,100,85,4,Monday,4,East_West,410.28
+24814,Surat-Bhubaneswar MEMU,WTN,Kharagpur Cantt,Cantt,2025-09-01 20:42:51,2025-09-01 20:54:51,12,207.81,4,100,91,1,Monday,5,East_West,618.09
+24814,Surat-Bhubaneswar MEMU,TUF,Dehradun Cantt,Cantt,2025-09-02 00:01:09,2025-09-02 00:13:09,12,217.34,4,100,70,4,Monday,6,East_West,835.42
+24814,Surat-Bhubaneswar MEMU,XFO,Dehradun Cantt,Cantt,2025-09-02 03:41:03,2025-09-02 03:53:03,12,277.19,4,100,80,1,Tuesday,7,East_West,1112.62
+24814,Surat-Bhubaneswar MEMU,XUT,Vadodara Junction,Junction,2025-09-02 04:18:18,2025-09-02 04:36:18,18,36.61,4,100,87,1,Tuesday,8,East_West,1149.23
+24814,Surat-Bhubaneswar MEMU,PBH,Bhubaneswar Cantt,Cantt,2025-09-03 02:25:03,,0,1897.69,4,100,87,2,Tuesday,9,East_West,3046.92
+42878,Vijayawada-Gandhinagar Fast Passenger,IEX,Vijayawada Road,Road,2025-09-01 04:15:00,2025-09-01 04:15:00,8,0.0,4,160,160,3,Monday,1,East_West,0.0
+42878,Vijayawada-Gandhinagar Fast Passenger,CXC,Bongaigaon Road,Road,2025-09-01 06:03:25,2025-09-01 06:11:25,8,209.61,4,160,116,2,Monday,2,East_West,209.61
+42878,Vijayawada-Gandhinagar Fast Passenger,ZPK,Warangal Road,Road,2025-09-01 07:32:42,2025-09-01 07:40:42,8,181.54,4,160,134,1,Monday,3,East_West,391.15
+42878,Vijayawada-Gandhinagar Fast Passenger,TXJ,Nanded Road,Road,2025-09-01 08:40:34,2025-09-01 08:48:34,8,138.68,4,160,139,1,Monday,4,East_West,529.83
+42878,Vijayawada-Gandhinagar Fast Passenger,ATO,Purnia Cantt,Cantt,2025-09-01 10:08:17,2025-09-01 10:20:17,12,186.02,4,160,140,3,Monday,5,East_West,715.85
+42878,Vijayawada-Gandhinagar Fast Passenger,KUF,Parbhani Halt,Halt,2025-09-01 11:32:10,2025-09-01 11:37:10,5,156.96,4,160,131,2,Monday,6,East_West,872.82
+42878,Vijayawada-Gandhinagar Fast Passenger,AOA,Hospet Cantt,Cantt,2025-09-01 13:14:07,2025-09-01 13:26:07,12,206.81,4,160,128,3,Monday,7,East_West,1079.63
+42878,Vijayawada-Gandhinagar Fast Passenger,QPZ,Bhiwandi Halt,Halt,2025-09-01 17:53:26,2025-09-01 17:58:26,5,672.75,4,160,151,2,Monday,8,East_West,1752.37
+42878,Vijayawada-Gandhinagar Fast Passenger,PMW,Kanpur Cantt,Cantt,2025-09-01 18:38:22,2025-09-01 18:50:22,12,93.84,4,160,141,1,Monday,9,East_West,1846.21
+42878,Vijayawada-Gandhinagar Fast Passenger,MKT,Sangli-Miraj Halt,Halt,2025-09-01 23:08:11,2025-09-01 23:13:11,5,481.25,4,160,112,2,Monday,10,East_West,2327.46
+42878,Vijayawada-Gandhinagar Fast Passenger,ZOB,Korba Road,Road,2025-09-02 00:54:41,2025-09-02 01:02:41,8,226.68,4,160,134,5,Monday,11,East_West,2554.14
+42878,Vijayawada-Gandhinagar Fast Passenger,OAR,Gandhinagar Junction,Junction,2025-09-02 09:28:46,,0,1012.18,4,160,120,2,Tuesday,12,East_West,3566.33
+10646,Gandhinagar-Aurangabad DEMU,OAR,Gandhinagar Junction,Junction,2025-09-01 18:15:00,2025-09-01 18:15:00,18,0.0,4,60,60,2,Monday,1,East_West,0.0
+10646,Gandhinagar-Aurangabad DEMU,XUT,Vadodara Junction,Junction,2025-09-01 21:30:40,2025-09-01 21:48:40,18,146.75,4,60,45,6,Monday,2,East_West,146.75
+10646,Gandhinagar-Aurangabad DEMU,WTN,Kharagpur Cantt,Cantt,2025-09-01 23:19:30,2025-09-01 23:31:30,12,69.64,4,60,46,4,Monday,3,East_West,216.4
+10646,Gandhinagar-Aurangabad DEMU,XFO,Dehradun Cantt,Cantt,2025-09-02 01:27:28,2025-09-02 01:39:28,12,94.71,4,60,49,3,Monday,4,East_West,311.1
+10646,Gandhinagar-Aurangabad DEMU,KOK,Surat Junction,Junction,2025-09-02 04:49:49,2025-09-02 05:07:49,18,164.97,4,60,52,10,Tuesday,5,East_West,476.07
+10646,Gandhinagar-Aurangabad DEMU,LPS,Morena Cantt,Cantt,2025-09-02 07:20:55,2025-09-02 07:32:55,12,124.23,4,60,56,1,Tuesday,6,East_West,600.3
+10646,Gandhinagar-Aurangabad DEMU,CES,Aurangabad Junction,Junction,2025-09-02 13:16:53,,0,263.71,4,60,46,6,Tuesday,7,East_West,864.01
+68215,Nanded-Vadodara Rajdhani Express,MDS,Nanded Cantt,Cantt,2025-09-01 17:30:00,2025-09-01 17:30:00,5,0.0,1,100,100,3,Monday,1,East_West,0.0
+68215,Nanded-Vadodara Rajdhani Express,XHL,Dehri Road,Road,2025-09-01 17:44:00,2025-09-01 17:44:00,0,21.94,1,100,94,2,Monday,2,East_West,21.94
+68215,Nanded-Vadodara Rajdhani Express,XGO,Saharsa Road,Road,2025-09-01 18:21:45,2025-09-01 18:21:45,0,57.88,1,100,92,1,Monday,3,East_West,79.82
+68215,Nanded-Vadodara Rajdhani Express,MZQ,Pallavaram Road,Road,2025-09-01 19:13:33,2025-09-01 19:13:33,0,79.44,1,100,92,1,Monday,4,East_West,159.27
+68215,Nanded-Vadodara Rajdhani Express,MKT,Sangli-Miraj Halt,Halt,2025-09-01 20:09:58,2025-09-01 20:09:58,0,85.57,1,100,91,1,Monday,5,East_West,244.83
+68215,Nanded-Vadodara Rajdhani Express,DSO,Surat Cantt,Cantt,2025-09-01 21:48:37,2025-09-01 21:53:37,5,147.97,1,100,90,1,Monday,6,East_West,392.8
+68215,Nanded-Vadodara Rajdhani Express,XUT,Vadodara Junction,Junction,2025-09-02 06:46:58,,0,826.7,1,100,93,3,Monday,7,East_West,1219.5
+57781,Bhubaneswar-Nanded Vande Bharat Express,PBH,Bhubaneswar Cantt,Cantt,2025-09-01 05:00:00,2025-09-01 05:00:00,5,0.0,1,110,110,2,Monday,1,East_West,0.0
+57781,Bhubaneswar-Nanded Vande Bharat Express,DBZ,Cuttack Road,Road,2025-09-01 05:19:31,2025-09-01 05:19:31,0,26.02,1,110,80,4,Monday,2,East_West,26.02
+57781,Bhubaneswar-Nanded Vande Bharat Express,RPW,Agra Halt,Halt,2025-09-01 05:56:08,2025-09-01 05:56:08,0,62.88,1,110,103,2,Monday,3,East_West,88.9
+57781,Bhubaneswar-Nanded Vande Bharat Express,MDS,Nanded Cantt,Cantt,2025-09-01 23:02:51,,0,1351.83,1,110,79,9,Monday,4,East_West,1440.73
+97335,Vadodara-Cuttack MEMU,XUT,Vadodara Junction,Junction,2025-09-01 18:15:00,2025-09-01 18:15:00,18,0.0,4,60,60,3,Monday,1,East_West,0.0
+97335,Vadodara-Cuttack MEMU,XFO,Dehradun Cantt,Cantt,2025-09-01 19:05:54,2025-09-01 19:17:54,12,36.48,4,60,43,2,Monday,2,East_West,36.48
+97335,Vadodara-Cuttack MEMU,WTN,Kharagpur Cantt,Cantt,2025-09-01 20:56:01,2025-09-01 21:08:01,12,86.66,4,60,53,4,Monday,3,East_West,123.15
+97335,Vadodara-Cuttack MEMU,OAR,Gandhinagar Junction,Junction,2025-09-02 00:50:45,2025-09-02 01:08:45,18,200.46,4,60,54,7,Monday,4,East_West,323.61
+97335,Vadodara-Cuttack MEMU,KOK,Surat Junction,Junction,2025-09-02 06:24:49,2025-09-02 06:42:49,18,279.19,4,60,53,1,Tuesday,5,East_West,602.8
+97335,Vadodara-Cuttack MEMU,LPS,Morena Cantt,Cantt,2025-09-02 08:48:38,2025-09-02 09:00:38,12,109.05,4,60,52,2,Tuesday,6,East_West,711.85
+97335,Vadodara-Cuttack MEMU,TDR,Pudukkottai Cantt,Cantt,2025-09-02 11:32:58,2025-09-02 11:44:58,12,106.64,4,60,42,1,Tuesday,7,East_West,818.49
+97335,Vadodara-Cuttack MEMU,PAH,Guna Cantt,Cantt,2025-09-02 17:21:52,2025-09-02 17:33:52,12,269.51,4,60,48,3,Tuesday,8,East_West,1088.0
+97335,Vadodara-Cuttack MEMU,UNA,Ranchi Halt,Halt,2025-09-02 22:53:24,2025-09-02 22:58:24,5,298.24,4,60,56,1,Tuesday,9,East_West,1386.24
+97335,Vadodara-Cuttack MEMU,DBZ,Cuttack Road,Road,2025-09-05 00:19:36,,0,2072.84,4,60,42,2,Tuesday,10,East_West,3459.08
+46490,Dwarka-Vijayawada Goods Special,VPP,Dwarka Junction,Junction,2025-09-01 00:45:00,2025-09-01 00:45:00,25,0.0,5,110,110,9,Monday,1,East_West,0.0
+46490,Dwarka-Vijayawada Goods Special,ZAR,Suryapet Cantt,Cantt,2025-09-01 02:59:17,2025-09-01 03:17:17,18,228.28,5,110,102,1,Monday,2,East_West,228.28
+46490,Dwarka-Vijayawada Goods Special,QTE,Jalandhar Cantt,Cantt,2025-09-01 04:46:52,2025-09-01 05:04:52,18,155.29,5,110,104,1,Monday,3,East_West,383.58
+46490,Dwarka-Vijayawada Goods Special,ICD,Khammam Halt,Halt,2025-09-01 06:47:33,2025-09-01 06:55:33,8,162.57,5,110,95,3,Monday,4,East_West,546.15
+46490,Dwarka-Vijayawada Goods Special,UNA,Ranchi Halt,Halt,2025-09-01 07:31:14,2025-09-01 07:39:14,8,56.49,5,110,95,1,Monday,5,East_West,602.64
+46490,Dwarka-Vijayawada Goods Special,BCN,Erode Road,Road,2025-09-01 11:59:49,2025-09-01 12:11:49,12,343.12,5,110,79,1,Monday,6,East_West,945.76
+46490,Dwarka-Vijayawada Goods Special,IEX,Vijayawada Road,Road,2025-09-02 03:11:02,,0,1303.86,5,110,87,5,Monday,7,East_West,2249.62
+95468,Surat-Bhubaneswar Fast Passenger,KOK,Surat Junction,Junction,2025-09-01 19:00:00,2025-09-01 19:00:00,18,0.0,4,80,80,11,Monday,1,East_West,0.0
+95468,Surat-Bhubaneswar Fast Passenger,PAH,Guna Cantt,Cantt,2025-09-01 19:58:58,2025-09-01 20:10:58,12,65.86,4,80,67,5,Monday,2,East_West,65.86
+95468,Surat-Bhubaneswar Fast Passenger,LPS,Morena Cantt,Cantt,2025-09-01 22:13:59,2025-09-01 22:25:59,12,133.26,4,80,65,2,Monday,3,East_West,199.12
+95468,Surat-Bhubaneswar Fast Passenger,BCN,Erode Road,Road,2025-09-02 01:38:57,2025-09-02 01:46:57,8,209.05,4,80,65,1,Monday,4,East_West,408.17
+95468,Surat-Bhubaneswar Fast Passenger,WTN,Kharagpur Cantt,Cantt,2025-09-02 04:47:07,2025-09-02 04:59:07,12,201.18,4,80,67,5,Tuesday,5,East_West,609.35
+95468,Surat-Bhubaneswar Fast Passenger,TUF,Dehradun Cantt,Cantt,2025-09-02 08:30:47,2025-09-02 08:42:47,12,222.26,4,80,63,2,Tuesday,6,East_West,831.61
+95468,Surat-Bhubaneswar Fast Passenger,XFO,Dehradun Cantt,Cantt,2025-09-02 12:44:12,2025-09-02 12:56:12,12,229.34,4,80,57,2,Tuesday,7,East_West,1060.95
+95468,Surat-Bhubaneswar Fast Passenger,XUT,Vadodara Junction,Junction,2025-09-02 13:32:37,2025-09-02 13:50:37,18,38.24,4,80,63,5,Tuesday,8,East_West,1099.19
+95468,Surat-Bhubaneswar Fast Passenger,TDR,Pudukkottai Cantt,Cantt,2025-09-02 16:46:23,2025-09-02 16:58:23,12,219.7,4,80,75,1,Tuesday,9,East_West,1318.89
+95468,Surat-Bhubaneswar Fast Passenger,RRG,Shimoga Cantt,Cantt,2025-09-02 19:16:33,2025-09-02 19:28:33,12,128.97,4,80,56,4,Tuesday,10,East_West,1447.86
+95468,Surat-Bhubaneswar Fast Passenger,MDV,Nashik Cantt,Cantt,2025-09-02 20:54:03,2025-09-02 21:06:03,12,102.6,4,80,72,9,Tuesday,11,East_West,1550.46
+95468,Surat-Bhubaneswar Fast Passenger,PBH,Bhubaneswar Cantt,Cantt,2025-09-03 23:17:28,,0,1649.99,4,80,63,2,Tuesday,12,East_West,3200.44
+61298,Bhubaneswar-Cuttack Duronto Express,PBH,Bhubaneswar Cantt,Cantt,2025-09-01 17:00:00,2025-09-01 17:00:00,5,0.0,1,130,130,4,Monday,1,East_West,0.0
+61298,Bhubaneswar-Cuttack Duronto Express,DBZ,Cuttack Road,Road,2025-09-01 17:14:44,,0,25.3,1,130,103,9,Monday,2,East_West,25.3
+75707,Aurangabad-Surat Jan Shatabdi Express,CES,Aurangabad Junction,Junction,2025-09-01 07:30:00,2025-09-01 07:30:00,12,0.0,2,130,130,4,Monday,1,East_West,0.0
+75707,Aurangabad-Surat Jan Shatabdi Express,YGR,Patiala Halt,Halt,2025-09-01 08:26:18,2025-09-01 08:28:18,2,113.56,2,130,121,2,Monday,2,East_West,113.56
+75707,Aurangabad-Surat Jan Shatabdi Express,WHV,Nagercoil Halt,Halt,2025-09-01 09:37:21,2025-09-01 09:39:21,2,138.08,2,130,120,3,Monday,4,East_West,480.14
+75707,Aurangabad-Surat Jan Shatabdi Express,KOK,Surat Junction,Junction,2025-09-01 12:05:46,,0,226.96,2,130,93,7,Monday,5,East_West,707.1
+78608,Warangal-Surat Mail Express,ZPK,Warangal Road,Road,2025-09-01 14:30:00,2025-09-01 14:30:00,5,0.0,3,180,180,11,Monday,1,East_West,0.0
+78608,Warangal-Surat Mail Express,TXJ,Nanded Road,Road,2025-09-01 15:20:11,2025-09-01 15:25:11,5,137.21,3,180,164,3,Monday,2,East_West,137.21
+78608,Warangal-Surat Mail Express,KUF,Parbhani Halt,Halt,2025-09-01 15:57:15,2025-09-01 16:00:15,3,87.07,3,180,163,2,Monday,3,East_West,224.29
+78608,Warangal-Surat Mail Express,ATO,Purnia Cantt,Cantt,2025-09-01 16:57:55,2025-09-01 17:07:55,10,143.21,3,180,149,4,Monday,4,East_West,367.5
+78608,Warangal-Surat Mail Express,KOK,Surat Junction,Junction,2025-09-01 23:55:08,,0,929.82,3,180,137,10,Monday,5,East_West,1297.33
+23577,Aurangabad-Vijayawada MEMU,CES,Aurangabad Junction,Junction,2025-09-01 18:00:00,2025-09-01 18:00:00,18,0.0,4,160,160,1,Monday,1,East_West,0.0
+23577,Aurangabad-Vijayawada MEMU,ZSY,Shimoga Halt,Halt,2025-09-01 18:38:23,2025-09-01 18:43:23,5,71.68,4,160,112,6,Monday,2,East_West,71.68
+23577,Aurangabad-Vijayawada MEMU,YRO,Aizawl Halt,Halt,2025-09-01 19:42:53,2025-09-01 19:47:53,5,112.04,4,160,113,1,Monday,3,East_West,183.72
+23577,Aurangabad-Vijayawada MEMU,XMG,Saharsa Cantt,Cantt,2025-09-01 20:08:59,2025-09-01 20:20:59,12,43.97,4,160,125,1,Monday,4,East_West,227.69
+23577,Aurangabad-Vijayawada MEMU,YGR,Patiala Halt,Halt,2025-09-01 21:00:15,2025-09-01 21:05:15,5,73.3,4,160,112,1,Monday,5,East_West,300.99
+23577,Aurangabad-Vijayawada MEMU,KPU,Bardhaman Road,Road,2025-09-01 23:54:42,2025-09-02 00:02:42,8,321.94,4,160,114,1,Monday,6,East_West,622.93
+23577,Aurangabad-Vijayawada MEMU,KYI,Unnao Road,Road,2025-09-02 02:23:16,2025-09-02 02:31:16,8,264.73,4,160,113,3,Tuesday,7,East_West,887.66
+23577,Aurangabad-Vijayawada MEMU,XHL,Dehri Road,Road,2025-09-02 03:39:02,2025-09-02 03:47:02,8,157.01,4,160,139,2,Tuesday,8,East_West,1044.67
+23577,Aurangabad-Vijayawada MEMU,IEX,Vijayawada Road,Road,2025-09-02 08:45:39,,0,651.97,4,160,131,3,Tuesday,9,East_West,1696.64
+27405,Dwarka-Vijayawada Jan Shatabdi Express,VPP,Dwarka Junction,Junction,2025-09-01 22:15:00,2025-09-01 22:15:00,12,0.0,2,110,110,2,Monday,1,East_West,0.0
+27405,Dwarka-Vijayawada Jan Shatabdi Express,ZAR,Suryapet Cantt,Cantt,2025-09-02 00:55:46,2025-09-02 01:03:46,8,235.81,2,110,88,1,Monday,2,East_West,235.81
+27405,Dwarka-Vijayawada Jan Shatabdi Express,QTE,Jalandhar Cantt,Cantt,2025-09-02 02:56:21,2025-09-02 03:04:21,8,165.13,2,110,88,4,Tuesday,3,East_West,400.94
+27405,Dwarka-Vijayawada Jan Shatabdi Express,ICD,Khammam Halt,Halt,2025-09-02 04:54:54,2025-09-02 04:56:54,2,178.72,2,110,97,2,Tuesday,4,East_West,579.65
+27405,Dwarka-Vijayawada Jan Shatabdi Express,UNA,Ranchi Halt,Halt,2025-09-02 05:31:49,2025-09-02 05:33:49,2,58.76,2,110,101,2,Tuesday,5,East_West,638.41
+54413,Gandhinagar-Bhubaneswar Mail Express,OAR,Gandhinagar Junction,Junction,2025-09-01 10:45:00,2025-09-01 10:45:00,15,0.0,3,60,60,3,Monday,1,East_West,0.0
+54413,Gandhinagar-Bhubaneswar Mail Express,XUT,Vadodara Junction,Junction,2025-09-01 13:45:48,2025-09-01 14:00:48,15,153.68,3,60,51,3,Monday,2,East_West,153.68
+54413,Gandhinagar-Bhubaneswar Mail Express,UNA,Ranchi Halt,Halt,2025-09-01 18:51:04,2025-09-01 18:54:04,3,256.4,3,60,53,1,Monday,3,East_West,410.09
+54413,Gandhinagar-Bhubaneswar Mail Express,WTN,Kharagpur Cantt,Cantt,2025-09-01 22:17:38,2025-09-01 22:27:38,10,186.61,3,60,55,3,Monday,4,East_West,596.7
+54413,Gandhinagar-Bhubaneswar Mail Express,PBH,Bhubaneswar Cantt,Cantt,2025-09-03 05:49:39,,0,1756.54,3,60,56,1,Monday,5,East_West,2353.24
+28824,Surat-Vadodara DEMU,KOK,Surat Junction,Junction,2025-09-01 20:15:00,2025-09-01 20:15:00,18,0.0,4,100,100,9,Monday,1,East_West,0.0
+28824,Surat-Vadodara DEMU,WTN,Kharagpur Cantt,Cantt,2025-09-01 21:49:54,2025-09-01 22:01:54,12,118.64,4,100,75,3,Monday,2,East_West,118.64
+28824,Surat-Vadodara DEMU,XFO,Dehradun Cantt,Cantt,2025-09-01 23:25:07,2025-09-01 23:37:07,12,101.23,4,100,73,1,Monday,3,East_West,219.87
+28824,Surat-Vadodara DEMU,XUT,Vadodara Junction,Junction,2025-09-02 00:02:45,,0,39.31,4,100,92,6,Monday,4,East_West,259.19
+96924,Vijayawada-Dwarka Express,IEX,Vijayawada Road,Road,2025-09-01 15:30:00,2025-09-01 15:30:00,5,0.0,3,100,100,7,Monday,1,East_West,0.0
+96924,Vijayawada-Dwarka Express,CXC,Bongaigaon Road,Road,2025-09-01 18:13:08,2025-09-01 18:18:08,5,193.05,3,100,71,2,Monday,2,East_West,193.05
+96924,Vijayawada-Dwarka Express,ZPK,Warangal Road,Road,2025-09-01 21:10:18,2025-09-01 21:15:18,5,203.73,3,100,71,3,Monday,3,East_West,396.78
+96924,Vijayawada-Dwarka Express,TXJ,Nanded Road,Road,2025-09-01 22:45:30,2025-09-01 22:50:30,5,127.79,3,100,85,4,Monday,4,East_West,524.57
+96924,Vijayawada-Dwarka Express,ATO,Purnia Cantt,Cantt,2025-09-02 01:14:28,2025-09-02 01:24:28,10,194.35,3,100,81,3,Monday,5,East_West,718.91
+96924,Vijayawada-Dwarka Express,VPP,Dwarka Junction,Junction,2025-09-02 21:21:40,,0,1536.42,3,100,77,7,Tuesday,6,East_West,2255.34
+45255,Surat-Gandhinagar Freight Express,KOK,Surat Junction,Junction,2025-09-01 22:00:00,2025-09-01 22:00:00,25,0.0,5,130,130,8,Monday,1,East_West,0.0
+45255,Surat-Gandhinagar Freight Express,WTN,Kharagpur Cantt,Cantt,2025-09-01 23:17:50,2025-09-01 23:35:50,18,119.36,5,130,92,2,Monday,2,East_West,119.36
+45255,Surat-Gandhinagar Freight Express,XFO,Dehradun Cantt,Cantt,2025-09-02 00:20:30,2025-09-02 00:38:30,18,91.56,5,130,123,2,Monday,3,East_West,210.92
+45255,Surat-Gandhinagar Freight Express,XUT,Vadodara Junction,Junction,2025-09-02 01:02:10,2025-09-02 01:27:10,25,37.86,5,130,96,3,Tuesday,4,East_West,248.79
+45255,Surat-Gandhinagar Freight Express,OAR,Gandhinagar Junction,Junction,2025-09-02 02:57:20,,0,141.26,5,130,94,3,Tuesday,5,East_West,390.05
+73142,Dwarka-Vijayawada Duronto Express,VPP,Dwarka Junction,Junction,2025-09-01 06:00:00,2025-09-01 06:00:00,8,0.0,1,160,160,7,Monday,1,East_West,0.0
+73142,Dwarka-Vijayawada Duronto Express,ZAR,Suryapet Cantt,Cantt,2025-09-01 07:39:49,2025-09-01 07:44:49,5,236.25,1,160,142,1,Monday,2,East_West,236.25
+73142,Dwarka-Vijayawada Duronto Express,QTE,Jalandhar Cantt,Cantt,2025-09-01 08:47:59,2025-09-01 08:52:59,5,153.7,1,160,146,3,Monday,3,East_West,389.95
+73142,Dwarka-Vijayawada Duronto Express,ICD,Khammam Halt,Halt,2025-09-01 10:08:10,2025-09-01 10:08:10,0,150.39,1,160,120,3,Monday,4,East_West,540.34
+73142,Dwarka-Vijayawada Duronto Express,UNA,Ranchi Halt,Halt,2025-09-01 10:31:49,2025-09-01 10:31:49,0,52.41,1,160,133,2,Monday,5,East_West,592.75
+77961,Visakhapatnam-Gandhinagar Freight Express,SFZ,Visakhapatnam Junction,Junction,2025-09-01 13:30:00,2025-09-01 13:30:00,25,0.0,5,110,110,4,Monday,1,East_West,0.0
+77961,Visakhapatnam-Gandhinagar Freight Express,PWY,Bally Cantt,Cantt,2025-09-01 15:36:48,2025-09-01 15:54:48,18,202.9,5,110,96,1,Monday,2,East_West,202.9
+77961,Visakhapatnam-Gandhinagar Freight Express,CXC,Bongaigaon Road,Road,2025-09-01 19:07:17,2025-09-01 19:19:17,12,307.98,5,110,96,2,Monday,3,East_West,510.88
+77961,Visakhapatnam-Gandhinagar Freight Express,OAR,Gandhinagar Junction,Junction,2025-09-02 11:02:11,,0,1492.92,5,110,95,2,Monday,4,East_West,2003.8
+95342,Bhubaneswar-Nashik Parcel Express,PBH,Bhubaneswar Cantt,Cantt,2025-09-01 22:30:00,2025-09-01 22:30:00,18,0.0,5,100,100,1,Monday,1,East_West,0.0
+95342,Bhubaneswar-Nashik Parcel Express,DBZ,Cuttack Road,Road,2025-09-01 22:50:31,2025-09-01 23:02:31,12,28.4,5,100,83,1,Monday,2,East_West,28.4
+95342,Bhubaneswar-Nashik Parcel Express,RPW,Agra Halt,Halt,2025-09-01 23:52:12,2025-09-02 00:00:12,8,57.96,5,100,70,2,Monday,3,East_West,86.36
+95342,Bhubaneswar-Nashik Parcel Express,PWY,Bally Cantt,Cantt,2025-09-02 06:11:24,2025-09-02 06:29:24,18,550.62,5,100,89,1,Tuesday,4,East_West,636.98
+95342,Bhubaneswar-Nashik Parcel Express,SFZ,Visakhapatnam Junction,Junction,2025-09-02 09:00:49,2025-09-02 09:25:49,25,196.84,5,100,78,5,Tuesday,5,East_West,833.82
+95342,Bhubaneswar-Nashik Parcel Express,QPZ,Bhiwandi Halt,Halt,2025-09-02 13:18:24,2025-09-02 13:26:24,8,360.51,5,100,93,3,Tuesday,6,East_West,1194.32
+95342,Bhubaneswar-Nashik Parcel Express,PMW,Kanpur Cantt,Cantt,2025-09-02 14:38:41,2025-09-02 14:56:41,18,95.18,5,100,79,1,Tuesday,7,East_West,1289.5
+95342,Bhubaneswar-Nashik Parcel Express,MDV,Nashik Cantt,Cantt,2025-09-03 05:10:13,,0,1138.03,5,100,80,5,Tuesday,8,East_West,2427.53
+79972,Gandhinagar-Cuttack Freight Express,OAR,Gandhinagar Junction,Junction,2025-09-01 13:30:00,2025-09-01 13:30:00,25,0.0,5,110,110,2,Monday,1,East_West,0.0
+79972,Gandhinagar-Cuttack Freight Express,XUT,Vadodara Junction,Junction,2025-09-01 15:21:15,2025-09-01 15:46:15,25,142.77,5,110,77,7,Monday,2,East_West,142.77
+79972,Gandhinagar-Cuttack Freight Express,UNA,Ranchi Halt,Halt,2025-09-01 17:54:22,2025-09-01 18:02:22,8,213.55,5,110,100,1,Monday,3,East_West,356.32
+79972,Gandhinagar-Cuttack Freight Express,WTN,Kharagpur Cantt,Cantt,2025-09-01 20:33:48,2025-09-01 20:51:48,18,196.86,5,110,78,2,Monday,4,East_West,553.18
+79972,Gandhinagar-Cuttack Freight Express,XFO,Dehradun Cantt,Cantt,2025-09-01 21:52:01,2025-09-01 22:10:01,18,97.35,5,110,97,3,Monday,5,East_West,650.52
+79972,Gandhinagar-Cuttack Freight Express,ICD,Khammam Halt,Halt,2025-09-02 02:42:50,2025-09-02 02:50:50,8,354.66,5,110,78,2,Monday,6,East_West,1005.18
+79972,Gandhinagar-Cuttack Freight Express,DBZ,Cuttack Road,Road,2025-09-03 06:31:46,,0,2159.22,5,110,78,3,Tuesday,7,East_West,3164.4
+86644,Nanded-Warangal Jan Shatabdi Express,MDS,Nanded Cantt,Cantt,2025-09-01 19:00:00,2025-09-01 19:00:00,8,0.0,2,80,80,9,Monday,1,East_West,0.0
+86644,Nanded-Warangal Jan Shatabdi Express,XGO,Saharsa Road,Road,2025-09-01 19:53:06,2025-09-01 19:56:06,3,53.12,2,80,60,3,Monday,3,East_West,75.59
+27892,Vadodara-Visakhapatnam Inter City Express,XUT,Vadodara Junction,Junction,2025-09-01 22:00:00,2025-09-01 22:00:00,15,0.0,3,110,110,5,Monday,1,East_West,0.0
+27892,Vadodara-Visakhapatnam Inter City Express,XFO,Dehradun Cantt,Cantt,2025-09-01 22:20:43,2025-09-01 22:30:43,10,33.16,3,110,96,2,Monday,2,East_West,33.16
+27892,Vadodara-Visakhapatnam Inter City Express,WTN,Kharagpur Cantt,Cantt,2025-09-01 23:31:21,2025-09-01 23:41:21,10,100.06,3,110,99,1,Monday,3,East_West,133.22
+27892,Vadodara-Visakhapatnam Inter City Express,OAR,Gandhinagar Junction,Junction,2025-09-02 01:59:17,2025-09-02 02:14:17,15,190.79,3,110,83,8,Monday,4,East_West,324.01
+27892,Vadodara-Visakhapatnam Inter City Express,SFZ,Visakhapatnam Junction,Junction,2025-09-02 18:48:57,,0,1541.74,3,110,93,5,Tuesday,5,East_West,1865.75
+92689,Surat-Nashik Parcel Express,KOK,Surat Junction,Junction,2025-09-01 12:30:00,2025-09-01 12:30:00,25,0.0,5,160,160,1,Monday,1,East_West,0.0
+92689,Surat-Nashik Parcel Express,PAH,Guna Cantt,Cantt,2025-09-01 12:57:00,2025-09-01 13:15:00,18,64.35,5,160,143,3,Monday,2,East_West,64.35
+92689,Surat-Nashik Parcel Express,LPS,Morena Cantt,Cantt,2025-09-01 14:20:35,2025-09-01 14:38:35,18,137.74,5,160,126,3,Monday,3,East_West,202.09
+92689,Surat-Nashik Parcel Express,TUF,Dehradun Cantt,Cantt,2025-09-01 15:15:23,2025-09-01 15:33:23,18,78.53,5,160,128,3,Monday,4,East_West,280.62
+92689,Surat-Nashik Parcel Express,MDV,Nashik Cantt,Cantt,2025-09-01 16:22:40,,0,103.48,5,160,126,3,Monday,5,East_West,384.1

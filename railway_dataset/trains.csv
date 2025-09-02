@@ -1,0 +1,76 @@
+train_code,train_name,train_type,priority,top_speed,coaches,zone
+45711,Kolkata-Ahmedabad Superfast Express,Fast Passenger,4,110,9,SR
+65996,Delhi-Kolkata Duronto Express,Container Special,5,80,58,CR
+37426,Mumbai-Kolkata Inter City Express,Superfast Express,3,130,16,ER
+77617,Chennai-Hyderabad Garib Rath Express,MEMU,4,110,10,WR
+69737,Bangalore-Pune Express,Shatabdi Express,1,180,18,WR
+38566,Chennai-Hyderabad Superfast Express,Mail Express,3,100,15,SR
+48065,Pune-Bangalore Fast Passenger,Double Decker Express,2,160,21,WR
+28118,Kolkata-Chennai MEMU,Mail Express,3,110,13,WR
+83716,Hyderabad-Kolkata Passenger,DEMU,4,110,9,CR
+20187,Kolkata-Hyderabad Parcel Express,Jan Shatabdi Express,2,110,23,NR
+39275,Hyderabad-Delhi DEMU,Mail Express,3,100,13,WR
+25536,Mumbai-Ahmedabad Freight Express,Superfast Express,3,130,19,SR
+89195,Delhi-Chennai Shatabdi Express,Humsafar Express,2,130,18,NR
+19805,Chennai-Delhi Double Decker Express,DEMU,4,80,11,NR
+45056,Chennai-Bangalore Superfast Express,DEMU,4,80,8,ER
+22953,Hyderabad-Pune Goods Special,Duronto Express,1,160,22,SR
+24552,Ahmedabad-Kolkata Humsafar Express,Passenger,4,100,11,WR
+62940,Chennai-Kolkata Fast Passenger,Rajdhani Express,1,130,19,WR
+15640,Hyderabad-Kolkata Jan Shatabdi Express,MEMU,4,110,11,WR
+83942,Mumbai-Kolkata DEMU,Goods Special,5,80,56,CR
+50015,Hyderabad-Bangalore Humsafar Express,Humsafar Express,2,110,20,CR
+98660,Ahmedabad-Chennai Rajdhani Express,Double Decker Express,2,110,20,SR
+48546,Mumbai-Ahmedabad Passenger,Superfast Express,3,100,13,ER
+30963,Kolkata-Ahmedabad Express,Vande Bharat Express,1,180,23,SR
+94094,Chennai-Pune Rajdhani Express,Container Special,5,80,50,SR
+75315,Nagpur-Amritsar Shatabdi Express,Duronto Express,1,130,17,WR
+70743,Ghaziabad-Mathura Passenger,DEMU,4,100,9,ER
+41332,Ludhiana-Ambala Jan Shatabdi Express,Express,3,130,15,ER
+87395,Bhopal-Amritsar Double Decker Express,MEMU,4,110,15,WR
+45565,Secunderabad-Mathura Inter City Express,Container Special,5,60,55,WR
+36772,Chandigarh-Ghaziabad Double Decker Express,MEMU,4,100,14,WR
+74391,Gwalior-Chandigarh Goods Special,Goods Special,5,100,40,ER
+41527,Nagpur-Agra Goods Special,Shatabdi Express,1,160,18,CR
+35243,Agra-Mathura Rajdhani Express,Jan Shatabdi Express,2,110,21,ER
+26009,Jammu-Ludhiana Mail Express,Inter City Express,3,100,12,ER
+32532,Ludhiana-Bhopal Rajdhani Express,Freight Express,5,100,48,WR
+81217,Nagpur-Ambala Vande Bharat Express,Superfast Express,3,130,19,SR
+86852,Bhopal-Jammu Container Special,Rajdhani Express,1,130,21,SR
+42287,Ludhiana-Ghaziabad Superfast Express,Superfast Express,3,130,15,CR
+38665,Gwalior-Nagpur Goods Special,Double Decker Express,2,160,19,SR
+19474,Chandigarh-Ghaziabad MEMU,Vande Bharat Express,1,130,21,WR
+72871,Mathura-Gwalior Freight Express,Express,3,110,12,CR
+23039,Mathura-Chandigarh Express,Duronto Express,1,160,23,CR
+98008,Ambala-Secunderabad Goods Special,Garib Rath Express,2,130,20,CR
+80704,Mathura-Bhopal Passenger,Container Special,5,100,52,NR
+35776,Jhansi-Secunderabad Humsafar Express,Freight Express,5,100,41,ER
+22376,Agra-Nagpur Passenger,Rajdhani Express,1,160,18,CR
+79907,Ludhiana-Jammu Garib Rath Express,Parcel Express,5,80,59,SR
+92064,Ambala-Jammu Mail Express,Double Decker Express,2,160,24,CR
+46160,Mathura-Amritsar Double Decker Express,Goods Special,5,60,50,NR
+89109,Nashik-Gandhinagar Fast Passenger,Freight Express,5,100,41,NR
+24814,Surat-Bhubaneswar MEMU,Freight Express,5,100,52,SR
+42878,Vijayawada-Gandhinagar Fast Passenger,Garib Rath Express,2,160,16,SR
+10646,Gandhinagar-Aurangabad DEMU,Parcel Express,5,60,50,SR
+68215,Nanded-Vadodara Rajdhani Express,Freight Express,5,100,53,WR
+57781,Bhubaneswar-Nanded Vande Bharat Express,Double Decker Express,2,110,21,CR
+97335,Vadodara-Cuttack MEMU,Parcel Express,5,60,46,NR
+46490,Dwarka-Vijayawada Goods Special,DEMU,4,110,10,CR
+95468,Surat-Bhubaneswar Fast Passenger,Freight Express,5,80,50,CR
+61298,Bhubaneswar-Cuttack Duronto Express,Garib Rath Express,2,130,21,WR
+75707,Aurangabad-Surat Jan Shatabdi Express,Duronto Express,1,130,23,ER
+78608,Warangal-Surat Mail Express,Shatabdi Express,1,180,22,ER
+23577,Aurangabad-Vijayawada MEMU,Humsafar Express,2,160,18,NR
+27405,Dwarka-Vijayawada Jan Shatabdi Express,DEMU,4,110,8,SR
+54413,Gandhinagar-Bhubaneswar Mail Express,Container Special,5,60,50,NR
+28824,Surat-Vadodara DEMU,MEMU,4,100,12,NR
+96924,Vijayawada-Dwarka Express,Passenger,4,100,12,CR
+45255,Surat-Gandhinagar Freight Express,Express,3,130,20,CR
+73142,Dwarka-Vijayawada Duronto Express,Double Decker Express,2,160,22,SR
+77961,Visakhapatnam-Gandhinagar Freight Express,Passenger,4,110,11,SR
+95342,Bhubaneswar-Nashik Parcel Express,Express,3,100,12,CR
+79972,Gandhinagar-Cuttack Freight Express,Superfast Express,3,110,18,ER
+86644,Nanded-Warangal Jan Shatabdi Express,MEMU,4,80,10,SR
+27892,Vadodara-Visakhapatnam Inter City Express,Passenger,4,110,8,WR
+92689,Surat-Nashik Parcel Express,Vande Bharat Express,1,160,16,SR

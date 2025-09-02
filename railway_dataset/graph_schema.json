@@ -1,0 +1,154 @@
+{
+  "description": "Enhanced Railway System Heterogeneous Graph Schema",
+  "node_types": {
+    "Station": {
+      "attributes": [
+        "station_code",
+        "station_name",
+        "station_type",
+        "num_platforms",
+        "zone",
+        "latitude",
+        "longitude",
+        "city",
+        "corridor"
+      ],
+      "description": "Railway stations with geographical and operational attributes"
+    },
+    "Train": {
+      "attributes": [
+        "train_code",
+        "train_name",
+        "train_type",
+        "priority",
+        "top_speed",
+        "coaches",
+        "zone"
+      ],
+      "description": "Train fleet with operational characteristics"
+    },
+    "Controller": {
+      "attributes": [
+        "controller_id",
+        "controller_name",
+        "shift",
+        "experience_years"
+      ],
+      "description": "Railway controllers managing station operations"
+    },
+    "Weather": {
+      "attributes": [
+        "weather_type",
+        "severity",
+        "temperature",
+        "humidity",
+        "wind_speed",
+        "visibility_km"
+      ],
+      "description": "Weather conditions affecting railway operations"
+    },
+    "Event": {
+      "attributes": [
+        "event_id",
+        "event_type",
+        "timestamp",
+        "severity"
+      ],
+      "description": "Operational events causing delays or disruptions"
+    }
+  },
+  "edge_types": {
+    "TRACK_LINK": {
+      "connects": [
+        "Station",
+        "Station"
+      ],
+      "attributes": [
+        "distance_km",
+        "max_speed_kmh",
+        "track_type",
+        "electrified",
+        "signal_type"
+      ],
+      "description": "Physical railway track connections between stations"
+    },
+    "HAS_WEATHER": {
+      "connects": [
+        "Station",
+        "Weather"
+      ],
+      "attributes": [
+        "timestamp"
+      ],
+      "description": "Weather conditions at specific stations and times"
+    },
+    "MANAGES": {
+      "connects": [
+        "Controller",
+        "Station"
+      ],
+      "attributes": [
+        "shift"
+      ],
+      "description": "Controller management relationships"
+    },
+    "CAUSES_DELAY": {
+      "connects": [
+        "Event",
+        "Train"
+      ],
+      "attributes": [
+        "delay_minutes",
+        "timestamp",
+        "station_code"
+      ],
+      "description": "Events causing train delays"
+    },
+    "SCHEDULED_AT": {
+      "connects": [
+        "Train",
+        "Station"
+      ],
+      "attributes": [
+        "arrival_time",
+        "departure_time",
+        "halt_minutes",
+        "platform_no",
+        "sequence_no",
+        "distance_from_prev_km"
+      ],
+      "description": "Train schedule at stations"
+    },
+    "FOLLOWS_CORRIDOR": {
+      "connects": [
+        "Train",
+        "Station"
+      ],
+      "attributes": [
+        "corridor_name",
+        "sequence_in_corridor"
+      ],
+      "description": "Trains following specific railway corridors"
+    }
+  },
+  "graph_features": {
+    "temporal_edges": [
+      "HAS_WEATHER",
+      "CAUSES_DELAY",
+      "SCHEDULED_AT"
+    ],
+    "spatial_edges": [
+      "TRACK_LINK",
+      "FOLLOWS_CORRIDOR"
+    ],
+    "operational_edges": [
+      "MANAGES",
+      "SCHEDULED_AT"
+    ],
+    "prediction_targets": [
+      "delay_minutes",
+      "arrival_time",
+      "departure_time"
+    ]
+  }
+}

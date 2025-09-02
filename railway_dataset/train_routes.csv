@@ -1,0 +1,76 @@
+train_code,train_name,origin_station,destination_station,corridor,route_stations,total_distance,total_stations
+45711,Kolkata-Ahmedabad Superfast Express,MRT,KXK,Golden_Quadrilateral,"MRT,CSN,EXX,TXT,KFI,LTC,KXK",3705.59,7
+65996,Delhi-Kolkata Duronto Express,HZP,MRT,Golden_Quadrilateral,"HZP,YDJ,PPB,MRT",1689.27,4
+37426,Mumbai-Kolkata Inter City Express,SCB,MRT,Golden_Quadrilateral,"SCB,OZR,QFP,OXM,MRT",1983.26,5
+77617,Chennai-Hyderabad Garib Rath Express,CPX,AJM,Golden_Quadrilateral,"CPX,AVX,UWE,EEF,PQN,ZYP,AJM",920.5,7
+69737,Bangalore-Pune Express,ARY,OZR,Golden_Quadrilateral,"ARY,PQN,WEI,ZTM,XGL,OZR",871.83,6
+38566,Chennai-Hyderabad Superfast Express,CPX,AJM,Golden_Quadrilateral,"CPX,AVX,UWE,EEF,PQN,ZYP,AJM",920.5,7
+48065,Pune-Bangalore Fast Passenger,OZR,ARY,Golden_Quadrilateral,"OZR,IVA,TUJ,DQD,MQV,JQY,QEA,XGL,ZTM,WEI,PQN,ARY",1717.13,12
+28118,Kolkata-Chennai MEMU,MRT,CPX,Golden_Quadrilateral,"MRT,CSN,TXT,KFI,LTC,ZWM,WEQ,CPX",2286.6,8
+83716,Hyderabad-Kolkata Passenger,AJM,MRT,Golden_Quadrilateral,"AJM,DQD,ZYP,UWE,EEF,DID,UKW,QXU,VKX,LTC,MRT",2523.66,11
+20187,Kolkata-Hyderabad Parcel Express,MRT,AJM,Golden_Quadrilateral,"MRT,CSN,TXT,AJM",1290.9,4
+39275,Hyderabad-Delhi DEMU,AJM,HZP,Golden_Quadrilateral,"AJM,DQD,QEA,JQY,IVA,DID,UKW,QXU,XVD,VKX,LTC,HZP",2999.91,12
+25536,Mumbai-Ahmedabad Freight Express,SCB,KXK,Golden_Quadrilateral,"SCB,QFP,OXM,KXK",458.5,4
+89195,Delhi-Chennai Shatabdi Express,HZP,CPX,Golden_Quadrilateral,"HZP,BBJ,ESS,YDJ,CPX",2038.82,5
+19805,Chennai-Delhi Double Decker Express,CPX,HZP,Golden_Quadrilateral,"CPX,AVX,UWE,EEF,HZP",1892.59,5
+45056,Chennai-Bangalore Superfast Express,CPX,ARY,Golden_Quadrilateral,"CPX,AVX,ARY",293.4,3
+22953,Hyderabad-Pune Goods Special,AJM,OZR,Golden_Quadrilateral,"AJM,DQD,QEA,JQY,OZR",811.81,5
+24552,Ahmedabad-Kolkata Humsafar Express,KXK,MRT,Golden_Quadrilateral,"KXK,OXM,BBJ,QFP,ESS,FFP,MRT",3246.82,7
+62940,Chennai-Kolkata Fast Passenger,CPX,MRT,Golden_Quadrilateral,"CPX,AVX,UWE,EEF,PQN,ZYP,WEI,ZTM,AJM,WEQ,MRT",2382.2,11
+15640,Hyderabad-Kolkata Jan Shatabdi Express,AJM,MRT,Golden_Quadrilateral,"AJM,DQD,ZYP,UWE,EEF,MRT",1894.77,6
+83942,Mumbai-Kolkata DEMU,SCB,MRT,Golden_Quadrilateral,"SCB,OZR,QFP,OXM,FFP,IVA,XVD,TUJ,MQV,DQD,KXK,MRT",4107.39,12
+50015,Hyderabad-Bangalore Humsafar Express,AJM,ARY,Golden_Quadrilateral,"AJM,ZTM,ZYP,QEA,UWE,ARY",1283.8,6
+98660,Ahmedabad-Chennai Rajdhani Express,KXK,CPX,Golden_Quadrilateral,"KXK,OXM,BBJ,QFP,ESS,CPX",2756.19,6
+48546,Mumbai-Ahmedabad Passenger,SCB,KXK,Golden_Quadrilateral,"SCB,QFP,OXM,KXK",458.5,4
+30963,Kolkata-Ahmedabad Express,MRT,KXK,Golden_Quadrilateral,"MRT,CSN,EXX,TXT,KFI,LTC,KXK",3705.59,7
+94094,Chennai-Pune Rajdhani Express,CPX,OZR,Golden_Quadrilateral,"CPX,AVX,UWE,EEF,PQN,OZR",1194.64,6
+75315,Nagpur-Amritsar Shatabdi Express,TZU,QOU,North_South,"TZU,ZSH,WKK,SFP,QOU",1318.83,5
+70743,Ghaziabad-Mathura Passenger,XWW,HVR,North_South,"XWW,HKK,LBB,AWS,HVR",203.21,5
+41332,Ludhiana-Ambala Jan Shatabdi Express,FMG,JDC,North_South,"FMG,KKU,KHT,JDC",113.33,4
+87395,Bhopal-Amritsar Double Decker Express,XFE,QOU,North_South,"XFE,LNT,WKK,GNC,SFP,CGX,QOU",1658.43,7
+45565,Secunderabad-Mathura Inter City Express,RXK,HVR,North_South,"RXK,UCA,TZU,ZSH,HVR",1173.97,5
+36772,Chandigarh-Ghaziabad Double Decker Express,MKC,XWW,North_South,"MKC,KHT,IXJ,JDC,XWW",325.03,5
+74391,Gwalior-Chandigarh Goods Special,IXO,MKC,North_South,"IXO,GFA,EAC,VUG,HGD,VZB,KYU,MKC",632.75,8
+41527,Nagpur-Agra Goods Special,TZU,KYU,North_South,"TZU,ZSH,WKK,SFP,XFE,LNT,KYU",894.26,7
+35243,Agra-Mathura Rajdhani Express,KYU,HVR,North_South,"KYU,HVR",48.2,2
+26009,Jammu-Ludhiana Mail Express,UOI,FMG,North_South,"UOI,QOU,MFG,NCQ,BPA,OVZ,FMG",517.23,7
+32532,Ludhiana-Bhopal Rajdhani Express,FMG,XFE,North_South,"FMG,KKU,OVZ,XFE",1050.79,4
+81217,Nagpur-Ambala Vande Bharat Express,TZU,JDC,North_South,"TZU,ZSH,WKK,SFP,XFE,JDC",1247.73,6
+86852,Bhopal-Jammu Container Special,XFE,UOI,North_South,"XFE,LNT,WKK,UOI",1370.2,4
+42287,Ludhiana-Ghaziabad Superfast Express,FMG,XWW,North_South,"FMG,KKU,KHT,IXJ,XWW",380.89,5
+38665,Gwalior-Nagpur Goods Special,IXO,TZU,North_South,"IXO,GFA,EAC,TZU",734.72,4
+19474,Chandigarh-Ghaziabad MEMU,MKC,XWW,North_South,"MKC,KHT,IXJ,JDC,QDS,EFT,VKZ,MXI,QXH,XWW",473.94,10
+72871,Mathura-Gwalior Freight Express,HVR,IXO,North_South,"HVR,KYU,VZB,HGD,EAC,IXO",228.93,6
+23039,Mathura-Chandigarh Express,HVR,MKC,North_South,"HVR,KYU,VZB,AWS,LBB,MKC",559.7,6
+98008,Ambala-Secunderabad Goods Special,JDC,RXK,North_South,"JDC,QDS,KHT,RXK",1558.14,4
+80704,Mathura-Bhopal Passenger,HVR,XFE,North_South,"HVR,KYU,VZB,HGD,EAC,VUG,GFA,EWT,IXO,XFE",966.64,10
+35776,Jhansi-Secunderabad Humsafar Express,DXE,RXK,North_South,"DXE,OMD,IXO,GNC,GFA,RXK",1656.11,6
+22376,Agra-Nagpur Passenger,KYU,TZU,North_South,"KYU,HGD,VZB,HVR,EAC,GFA,TZU",846.37,7
+79907,Ludhiana-Jammu Garib Rath Express,FMG,UOI,North_South,"FMG,KKU,OVZ,UOI",283.38,4
+92064,Ambala-Jammu Mail Express,JDC,UOI,North_South,"JDC,QDS,KHT,MKC,IXJ,KKU,UOI",432.71,7
+46160,Mathura-Amritsar Double Decker Express,HVR,QOU,North_South,"HVR,KYU,VZB,HGD,QOU",704.58,5
+89109,Nashik-Gandhinagar Fast Passenger,MDV,OAR,East_West,"MDV,WHV,TUF,RRG,LPS,QUJ,PAH,TDR,KOK,OAR",1186.42,10
+24814,Surat-Bhubaneswar MEMU,KOK,PBH,East_West,"KOK,PAH,LPS,BCN,WTN,TUF,XFO,XUT,PBH",2175.96,9
+42878,Vijayawada-Gandhinagar Fast Passenger,IEX,OAR,East_West,"IEX,CXC,ZPK,TXJ,ATO,KUF,AOA,QPZ,PMW,MKT,ZOB,OAR",2649.31,12
+10646,Gandhinagar-Aurangabad DEMU,OAR,CES,East_West,"OAR,XUT,WTN,XFO,KOK,LPS,CES",668.4,7
+68215,Nanded-Vadodara Rajdhani Express,MDS,XUT,East_West,"MDS,XHL,XGO,MZQ,MKT,DSO,XUT",849.8,7
+57781,Bhubaneswar-Nanded Vande Bharat Express,PBH,MDS,East_West,"PBH,DBZ,RPW,MDS",1017.88,4
+97335,Vadodara-Cuttack MEMU,XUT,DBZ,East_West,"XUT,XFO,WTN,OAR,KOK,LPS,TDR,PAH,UNA,DBZ",2556.66,10
+46490,Dwarka-Vijayawada Goods Special,VPP,IEX,East_West,"VPP,ZAR,QTE,ICD,UNA,BCN,IEX",1711.7,7
+95468,Surat-Bhubaneswar Fast Passenger,KOK,PBH,East_West,"KOK,PAH,LPS,BCN,WTN,TUF,XFO,XUT,TDR,RRG,MDV,PBH",2423.61,12
+61298,Bhubaneswar-Cuttack Duronto Express,PBH,DBZ,East_West,"PBH,DBZ",19.48,2
+75707,Aurangabad-Surat Jan Shatabdi Express,CES,KOK,East_West,"CES,YGR,QUJ,WHV,KOK",531.19,5
+78608,Warangal-Surat Mail Express,ZPK,KOK,East_West,"ZPK,TXJ,KUF,ATO,KOK",914.9,5
+23577,Aurangabad-Vijayawada MEMU,CES,IEX,East_West,"CES,ZSY,YRO,XMG,YGR,KPU,KYI,XHL,IEX",1225.9,9
+27405,Dwarka-Vijayawada Jan Shatabdi Express,VPP,IEX,East_West,"VPP,ZAR,QTE,ICD,UNA,IEX",1648.41,6
+54413,Gandhinagar-Bhubaneswar Mail Express,OAR,PBH,East_West,"OAR,XUT,UNA,WTN,PBH",1813.71,5
+28824,Surat-Vadodara DEMU,KOK,XUT,East_West,"KOK,WTN,XFO,XUT",184.35,4
+96924,Vijayawada-Dwarka Express,IEX,VPP,East_West,"IEX,CXC,ZPK,TXJ,ATO,VPP",1587.57,6
+45255,Surat-Gandhinagar Freight Express,KOK,OAR,East_West,"KOK,WTN,XFO,XUT,OAR",299.76,5
+73142,Dwarka-Vijayawada Duronto Express,VPP,IEX,East_West,"VPP,ZAR,QTE,ICD,UNA,IEX",1648.41,6
+77961,Visakhapatnam-Gandhinagar Freight Express,SFZ,OAR,East_West,"SFZ,PWY,CXC,OAR",1419.26,4
+95342,Bhubaneswar-Nashik Parcel Express,PBH,MDV,East_West,"PBH,DBZ,RPW,PWY,SFZ,QPZ,PMW,MDV",1717.99,8
+79972,Gandhinagar-Cuttack Freight Express,OAR,DBZ,East_West,"OAR,XUT,UNA,WTN,XFO,ICD,DBZ",2302.78,7
+86644,Nanded-Warangal Jan Shatabdi Express,MDS,ZPK,East_West,"MDS,XHL,XGO,ZPK",338.79,4
+27892,Vadodara-Visakhapatnam Inter City Express,XUT,SFZ,East_West,"XUT,XFO,WTN,OAR,SFZ",1494.22,5
+92689,Surat-Nashik Parcel Express,KOK,MDV,East_West,"KOK,PAH,LPS,TUF,MDV",285.39,5
