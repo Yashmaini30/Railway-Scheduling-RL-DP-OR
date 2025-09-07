@@ -1,54 +1,63 @@
+# railway_decision_engine/gnn_model.py
+
+import pandas as pd
+import numpy as np
 import networkx as nx
+import random
 
 class GNNModel:
     """
-    Functional prototype for a Heterogeneous Graph Neural Network.
-    Simulates cascading delays using BFS traversal from the event location.
+    Conceptual Heterogeneous Graph Neural Network for predicting cascading delays.
+    
+    This class simulates the behavior of a GNN trained to understand the
+    complex relationships in the railway network graph. This version
+    uses a graph traversal to provide a more realistic prototype.
     """
     def __init__(self):
-        pass
+        print("GNNModel initialized. Ready for simulation.")
 
     def predict_impact(self, graph, real_time_event):
         """
-        Simulate delay propagation using BFS from the event's station.
-        Delay is a function of event severity and hops from the source.
-
+        Predicts the cascading delays across the network based on a real-time event.
+        This is a heuristic-based simulation, not a real GNN.
         """
-        # Severity mapping
-        severity_map = {'low': 1, 'medium': 2, 'high': 3}
-        base_delay = 10 * severity_map.get(real_time_event.get('severity', 'low'), 1)
+        print("Step C: GNN predicting cascading delays...")
+        
+        predicted_delays = {}
+        affected_trains_list = real_time_event.get('affected_trains', [])
+        event_severity = real_time_event.get('severity', 'low')
 
-        # Find event station node
+        severity_map = {'low': 10, 'medium': 30, 'high': 60}
+        initial_delay = severity_map.get(event_severity, 15)
+
         event_station_code = real_time_event.get('station_code')
         event_station_node = f"Station_{event_station_code}"
 
-        # BFS from event station to all stations
-        delays = {}
-        visited_stations = set()
-        queue = [(event_station_node, 0)]  # (station_node, hops)
+        # Initialize BFS queue with the event station and its distance from source (0 hops)
+        queue = [(event_station_node, 0)]
+        visited_stations = {event_station_node}
 
         while queue:
-            current_station, hops = queue.pop(0)
-            if current_station in visited_stations:
-                continue
-            visited_stations.add(current_station)
+            current_station_node, hops = queue.pop(0)
 
-            # Find trains scheduled at this station
-            for neighbor in graph.neighbors(current_station):
-                if graph.nodes[neighbor].get('node_type') == 'Train':
-                    train_code = neighbor.replace("Train_", "")
-                    # Directly affected trains get full delay, others get reduced delay
-                    if train_code in real_time_event.get('affected_trains', []):
-                        delay = base_delay
-                    else:
-                        # Delay decays with hops
-                        delay = max(base_delay - hops * 3, 2)
-                    # If multiple paths, keep the max delay
-                    delays[train_code] = max(delays.get(train_code, 0), delay)
+            # Look for trains scheduled to be at this station.
+            # We check incoming edges because the 'ROUTES_THROUGH' edge points from the train to the station.
+            for train_node, _, edge_data in graph.in_edges(current_station_node, data=True):
+                if edge_data.get('edge_type') == 'ROUTES_THROUGH' and graph.nodes[train_node].get('node_type') == 'Train':
+                    train_code = train_node.replace("Train_", "")
 
-            # Traverse to next stations via TRACK_LINK edges
-            for _, next_station, edge_data in graph.out_edges(current_station, data=True):
-                if graph.nodes[next_station].get('node_type') == 'Station' and next_station not in visited_stations:
-                    queue.append((next_station, hops + 1))
+                    # Calculate delay with decay based on hops
+                    # The decay ensures that delays lessen the further they are from the source.
+                    delay = max(0, initial_delay - (hops * 5)) # Simple linear decay
+                    if delay > 0:
+                        # If a train is affected by multiple events, take the maximum delay.
+                        predicted_delays[train_code] = max(predicted_delays.get(train_code, 0), delay)
 
-        return delays
+            # Now, find other stations to traverse to (cascading effect)
+            for _, next_station_node, edge_data in graph.out_edges(current_station_node, data=True):
+                if edge_data.get('edge_type') == 'TRACK_LINK' and next_station_node not in visited_stations:
+                    visited_stations.add(next_station_node)
+                    queue.append((next_station_node, hops + 1))
+                
+        print(f"  GNN prediction complete. Predicted delays for {len(predicted_delays)} trains.")
+        return predicted_delays

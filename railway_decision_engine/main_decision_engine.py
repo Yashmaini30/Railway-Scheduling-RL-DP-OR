@@ -166,7 +166,7 @@ class RailwayDecisionEngine:
         optimal_action =  self.rl_agent.get_optimal_action(graph, predicted_delays, real_time_event)
 
         # Step 5: Scheduler applies action and optimizes schedule 
-        new_schedule = self.scheduler.apply_action(dfs['timetable'], optimal_action)
+        new_schedule = self.scheduler.apply_action(dfs['timetable'], optimal_action, predicted_delays)
 
         # Step 6: Log and return result
         result = {
@@ -207,6 +207,3 @@ if __name__ == "__main__":
     }
     with open("decision_engine_output.json", "w") as f:
         json.dump(summary, f, indent=2)
-
-    # full schedule as CSV
-    result["new_schedule"].to_csv("decision_engine_new_schedule.csv", index=False)
