@@ -1,0 +1,8 @@
+,delay_minutes,delay_minutes,delay_minutes,total_delay_hours
+,sum,count,mean,
+priority,,,,
+1,345,10,34.5,5.75
+2,287,10,28.7,4.783333333333333
+3,650,16,40.625,10.833333333333334
+4,705,16,44.0625,11.75
+5,546,14,39.0,9.1
