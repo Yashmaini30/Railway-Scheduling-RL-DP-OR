@@ -1,0 +1,18 @@
+{
+  "event": {
+    "event_id": "EVT_000004",
+    "event_type": "WEATHER_EVENT",
+    "timestamp": "2025-09-02 05:48:37",
+    "station_code": "EEF",
+    "weather_type": "Heavy_Rain",
+    "severity": "medium",
+    "affected_trains": [
+      "77617"
+    ]
+  },
+  "predicted_delays": {},
+  "optimal_action": {
+    "action": "hold_train",
+    "train_code": null
+  }
+}

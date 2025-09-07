@@ -1,27 +1,25 @@
 class RLAgent:
     """
-    Conceptual stub for a PPO-based Reinforcement Learning agent.
-    Selects optimal actions to minimize network-wide delays.
+    Functional prototype for a rule-based RL agent.
+    Chooses actions to minimize network-wide delays.
     """
     def __init__(self):
-        # Conceptually initialize the RL agent (e.g., policy network, hyperparameters)
         pass
 
     def get_optimal_action(self, graph, predicted_delays, real_time_event):
         """
-        Chooses an optimal action based on predicted delays.
-
-        Args:
-            graph (networkx.MultiDiGraph): The railway network graph.
-            predicted_delays (dict): {train_code: predicted_delay_minutes}
-            real_time_event (dict): The real-time event dict.
-
-        Returns:
-            dict: Action recommendation, e.g., {"action": "reroute_train", "train_code": "T123"}
+        Heuristic: reroute the train with the highest predicted delay,
+        or hold if all delays are small.
         """
-        # Simple policy: reroute the train with the highest predicted delay
-        if predicted_delays:
-            worst_train = max(predicted_delays, key=predicted_delays.get)
-            return {"action": "reroute_train", "train_code": worst_train}
-        else:
+        if not predicted_delays:
             return {"action": "hold_train", "train_code": None}
+
+        # Find train(s) with highest delay
+        max_delay = max(predicted_delays.values())
+        worst_trains = [t for t, d in predicted_delays.items() if d == max_delay]
+
+        # If delay is above threshold, reroute; else, hold
+        if max_delay >= 15:
+            return {"action": "reroute_train", "train_code": worst_trains[0], "delay": max_delay}
+        else:
+            return {"action": "hold_train", "train_code": worst_trains[0], "delay": max_delay}

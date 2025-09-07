@@ -1,10 +1,12 @@
 import os
 import networkx as nx
-from utils.data_loader import DatabaseClient
+import pandas as pd
+import json
 
-# from gnn_model import GNNModel
-# from rl_agent import RLAgent
-# from schedule_optimizer import ScheduleOptimizer
+from railway_decision_engine.gnn_model import GNNModel
+from railway_decision_engine.rl_agent import RLAgent
+from railway_decision_engine.schedule_optimizer import ScheduleOptimizer
+from utils.data_loader import DatabaseClient
 
 class RailwayDecisionEngine:
     """
@@ -17,10 +19,10 @@ class RailwayDecisionEngine:
     """
     def __init__(self, dataset_dir):
         self.db = DatabaseClient(dataset_dir)
-        # Conceptual instances for later phases
-        self.gnn = None  # GNNModel()
-        self.rl_agent = None  # RLAgent()
-        self.scheduler = None  # ScheduleOptimizer()
+
+        self.gnn = GNNModel()
+        self.rl_agent = RLAgent()
+        self.scheduler = ScheduleOptimizer()
 
     def _load_data_from_csvs(self):
         """
@@ -157,27 +159,27 @@ class RailwayDecisionEngine:
         # Step 2: Build heterogeneous graph
         graph = self._build_hetero_graph(dfs)
 
-        # Step 3: GNN predicts cascading delays (stub)
-        predicted_delays = {"stub_train": 10}  # Replace with self.gnn.predict_impact(graph, real_time_event)
+        # Step 3: GNN predicts cascading delays
+        predicted_delays = self.gnn.predict_impact(graph, real_time_event)
 
-        # Step 4: RL agent selects optimal action (stub)
-        optimal_action = {"action": "reroute_train", "train_code": "stub_train"}  # Replace with self.rl_agent.get_optimal_action(graph, predicted_delays, real_time_event)
+        # Step 4: RL agent selects optimal action
+        optimal_action =  self.rl_agent.get_optimal_action(graph, predicted_delays, real_time_event)
 
-        # Step 5: Scheduler applies action and optimizes schedule (stub)
-        new_schedule = dfs['timetable']  # Replace with self.scheduler.apply_action(dfs['timetable'], optimal_action)
+        # Step 5: Scheduler applies action and optimizes schedule 
+        new_schedule = self.scheduler.apply_action(dfs['timetable'], optimal_action)
 
         # Step 6: Log and return result
         result = {
             "event": real_time_event,
             "predicted_delays": predicted_delays,
             "optimal_action": optimal_action,
-            "new_schedule": new_schedule.head(5)  # Show only first 5 rows for brevity
+            "new_schedule": new_schedule 
         }
         print("Decision Engine Log:")
         print(f"Event: {real_time_event}")
         print(f"Predicted Delays: {predicted_delays}")
         print(f"Optimal Action: {optimal_action}")
-        print(f"New Schedule (head):\n{new_schedule.head()}")
+        print(f"New Schedule (head):\n{new_schedule}")
         return result
 
 if __name__ == "__main__":
@@ -196,3 +198,15 @@ if __name__ == "__main__":
     result = engine.make_decision(sample_event)
     print("\nFinal Decision Engine Result:")
     print(result)
+
+    # summary as JSON
+    summary = {
+        "event": result["event"],
+        "predicted_delays": result["predicted_delays"],
+        "optimal_action": result["optimal_action"]
+    }
+    with open("decision_engine_output.json", "w") as f:
+        json.dump(summary, f, indent=2)
+
+    # full schedule as CSV
+    result["new_schedule"].to_csv("decision_engine_new_schedule.csv", index=False)
