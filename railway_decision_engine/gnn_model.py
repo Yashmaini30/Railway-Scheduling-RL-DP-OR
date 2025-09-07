@@ -1,23 +1,43 @@
-import torch
-from torch_geometric.data import Data
-import pandas as pd
+import random
 
-def nx_to_pyg_data(G):
-    # Convert NetworkX graph to PyG Data object
-    edge_index = []
-    edge_attr = []
-    node_features = []
-    node_map = {node: i for i, node in enumerate(G.nodes)}
-    for node in G.nodes:
-        node_features.append([
-            G.nodes[node].get('num_platforms', 1),
-            G.nodes[node].get('latitude', 0),
-            G.nodes[node].get('longitude', 0)
-        ])
-    for u, v, data in G.edges(data=True):
-        edge_index.append([node_map[u], node_map[v]])
-        edge_attr.append([data.get('weight', 1), data.get('max_speed', 80)])
-    edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
-    edge_attr = torch.tensor(edge_attr, dtype=torch.float)
-    x = torch.tensor(node_features, dtype=torch.float)
-    return Data(x=x, edge_index=edge_index, edge_attr=edge_attr)
+class GNNModel:
+    """
+    Conceptual stub for a Heterogeneous Graph Neural Network.
+    Predicts cascading delays in the railway network given a real-time event.
+    """
+    def __init__(self):
+        # Conceptually initialize the GNN model (e.g., load weights, set up architecture)
+        pass
+
+    def predict_impact(self, graph, real_time_event):
+        """
+        Predicts delays for trains affected by the event and simulates cascading delays for connected trains.
+
+        Args:
+            graph (networkx.MultiDiGraph): The heterogeneous railway network graph.
+            real_time_event (dict): The real-time event dict.
+
+        Returns:
+            dict: {train_code: predicted_delay_minutes}
+        """
+        # Directly affected trains
+        affected_trains = real_time_event.get('affected_trains', [])
+        delays = {}
+
+        # Assign a random delay to directly affected trains
+        for train in affected_trains:
+            delays[train] = random.randint(20, 90)
+
+        # Simulate cascading delays for trains sharing stations/routes
+        for train in graph.nodes:
+            if graph.nodes[train].get('node_type') == 'Train' and train.replace("Train_", "") not in affected_trains:
+                # If train shares a station with affected train, add a smaller delay
+                for affected in affected_trains:
+                    affected_node = f"Train_{affected}"
+                    # Check for shared stations via ROUTES_THROUGH edges
+                    shared_stations = set(graph.neighbors(train)) & set(graph.neighbors(affected_node))
+                    if shared_stations:
+                        delays[train.replace("Train_", "")] = random.randint(5, 30)
+                        break
+
+        return delays
